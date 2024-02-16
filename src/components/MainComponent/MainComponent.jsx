@@ -33,7 +33,7 @@ function MainComponent({
             onChange={handleMenuToggle}
           />
         </label>
-        <img className="mainComponent-image" src={image} alt={alt} />
+        {/* <img className="mainComponent-image" src={image} alt={alt} /> */}
         <p className="mainComponent-text">{text}</p>
         {alt === "Humanoid robo-rabbit" && (
           <a id="portal" href="https://the-final-piece.vercel.app/"></a>
@@ -52,14 +52,7 @@ function MainComponent({
             <h3 className="mainComponent-thankYouMessage">
               Thank you for playing & reading my story.
             </h3>
-            <a
-              className="mainComponent-link"
-              href="https://profound-cat-a609de.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Next chapter
-            </a>
+         
             <Link className="mainComponent-creditsLink" to="/credits">
               Credits
             </Link>

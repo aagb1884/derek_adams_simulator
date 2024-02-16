@@ -21,7 +21,7 @@
   border: 5px solid var(--tertiaryColor);
 }
 
-.startScreen-image {
+/* .startScreen-image {
   animation: imageMove 30s linear infinite;
   background-size: cover;
   background-position: 50%;
@@ -32,9 +32,9 @@
   scale: 1.2;
   max-width: 992px;
   margin: auto;
-}
+} */
 
-.startScreen-image:nth-child(1) {
+/* .startScreen-image:nth-child(1) {
   background-image: url(../../assets/coverRealWordImage.jpg);
 }
 
@@ -46,7 +46,7 @@
 .startScreen-image:nth-child(3) {
   animation-delay: 20s;
   background-image: url(../../assets/coverSubLevelImage.jpg);
-}
+} */
 
 @media screen and (min-height: 768px) {
   .startScreen-container {

@@ -10,9 +10,9 @@ function StartScreen() {
         <div className="startScreen-image"></div>
         <div className="startScreen-image"></div> */}
       </div>
-      <h1 className="startScreen-title">Poets of Tomorrow’s World</h1>
+      <h1 className="startScreen-title">You are Derek Adams</h1>
       <div className="startScreen-menu">
-        <Link className="startScreen-btn" to="/story">
+        <Link className="startScreen-btn" to="/game">
           Start
         </Link>
         <Link className="startScreen-btn" to="/about">
