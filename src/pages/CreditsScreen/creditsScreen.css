@@ -1,0 +1,83 @@
+.creditsScreen-container {
+  font-family: "Orbitron", sans-serif;
+  color: var(--primaryColor);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  animation: creditsScreen-load 2s ease-in 0ms;
+  animation-fill-mode: forwards;
+  transform: translateY(-10px);
+  opacity: 0;
+}
+
+.creditsScreen-header {
+  font-size: 1.75rem;
+}
+
+.creditsScreen-block {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 1vw;
+}
+
+.creditsScreen-text {
+  margin: 0.5vw;
+}
+
+.creditsScreen-image {
+  margin: 0.5vw;
+  max-width: 45vw;
+  max-height: 45vh;
+  object-fit: cover;
+  border: 1px solid var(--secondaryColor);
+}
+
+.creditsScreen-startScreenLink {
+  --c: no-repeat linear-gradient(var(--tertiaryColor) 0 0);
+  background: var(--c) calc(-101% + var(--p, 0%)) 100%,
+    var(--c) calc(201% - var(--p, 0%)) 0;
+  color: var(--primaryColor);
+  background-size: 50.1% var(--p, 0.08em);
+  background-color: var(--secondaryBackground);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+  font-size: 1.25rem;
+  margin: 2vh 0 3vh;
+  padding: 1vh;
+  border: 1px solid var(--tertiaryColor);
+  text-decoration: none;
+}
+
+.creditsScreen-startScreenLink:hover {
+  --p: 101%;
+  --t: 0.3s;
+  color: var(--secondaryColor);
+  background-color: var(--tertiaryColor);
+  border: 1px solid var(--primaryColor);
+}
+
+.creditsScreen-personalLink {
+  color: var(--secondaryColor);
+  margin-bottom: 2vh;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.creditsScreen-personalLink:hover {
+  color: var(--tertiaryColor);
+  scale: 1.1;
+  transition: 0.25s;
+}
+
+@keyframes creditsScreen-load {
+  0% {
+    transform: translateY(-700px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
