@@ -1,13 +1,22 @@
-
-
-// HEADER: YOU ARE DEREK ADAMS
-
 // state numberOfTimesInTheJob = 3
+// setNumberOfTimesInTheJob(numberOfTimesInTheJob)
+import victoriaPark from '.\images\GlobalEnergyStadiumDingwall.jpg';
+import tonyMacaroni from '.\images\Almondvale_Stadium.jpg';
+import celticPark from '.\images\Celtic_park_2.jpg';
+import tynecastle from '.\images\Tynecastle_Park.jpg';
+import smisa from '.\images\SMISA.jpg';
+import hugeMistake from '.\images\huge_mistake.gif';
+import helloDarkness from '.\images\hello_darkness.gif';
+import affleckDarkness from '.\images\hello_darkness_affleck.gif';
+import smallDarkness from '.\images\hello_darkness_small.gif';
+import soundOfSilence from '.\images\sound_of_silence.gif';
+import buckled from '.\images\buckled.gif';
+import gorgieCityFarm from '.\images\gorgie-farm.jpg';
 
 const texts = [
   {
     id: 1,
-// setNumberOfTimesInTheJob(numberOfTimesInTheJob)
+
 date: "19/11/23",
     text: 
 `You awake to find yourself manager of Ross County F.C.
@@ -35,8 +44,8 @@ date: "25/11/23",
 `You are about to play Kilmarnock. 
 
 The game is at Victoria Park, Dingwall.`,
-    // // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: victoriaPark,
+    alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
     options: [
       {
         text: "Muck about with the team, put your own stamp on it",
@@ -71,11 +80,11 @@ date: "28/11/23",
     text: 
 `You are about to play The Buddies.
 
-The game is at Victoria Park, Dingwall.
+The game will be played at Victoria Park, Dingwall.
 
 You remain optimistic about your chances following the Kilmarnock match.`,
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: victoriaPark,
+    alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
     options: [
       {
         text: "Same team as last time.",
@@ -93,11 +102,11 @@ date: "28/11/23",
     text: 
 `You are about to play The Buddies.
 
-The game is at Victoria Park, Dingwall.
+The game will be played at Victoria Park, Dingwall.
 
 You have bollocked the players for not winning the Kilmarnock match.`,
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: victoriaPark,
+    alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
     options: [
       {
         text: "Wholesale changes to the line-up",
@@ -151,7 +160,7 @@ date: "28/11/23",
     id: 8,
 date: "28/11/23",
     text: 
-"You beat The Buddies 5-0! Clever Derek! Here′s to the raw power of your bollocks.",
+"You beat The Buddies 5-0! Clever Derek! Here's to the raw power of your bollocks.",
 
     // image: finalLoopImage,
     alt: "Character looking at the futuristic tower.",
@@ -274,10 +283,10 @@ date: "09/12/23",
     text: 
 `You are about to play The Buddies. 
 
-The game is at The Buddies Park, Paisley.`,
+The game will be played at The Buddies Park, Paisley.`,
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: smisa,
+    alt: "The Buddies Park (aka The SMISA Stadium), Paisley.",
            options: [
       {
         text: "We beat these bigtown scum at our place and we can do it again here!",
@@ -297,8 +306,8 @@ date: "09/12/23",
 
 The game is at The Buddies Park, Paisley.`,
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: smisa,
+    alt: "The Buddies Park (aka The SMISA Stadium), Paisley.",
            options: [
       {
         text: "Treat this like a new game. A new game of football. Not like a brand new game, like you sometimes get on The Crystal Maze.",
@@ -384,8 +393,8 @@ text:
 
 The game will be played at Victoria Park, Dingwall.`,
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: victoriaPark,
+    alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
            options: [
       {
         text: "Look you were unlucky in the last game. We just need to put the ball in the net.",
@@ -530,8 +539,8 @@ text:
 
 The game will be played at Tynecastle, Edinburgh.`,
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: tynecastle,
+    alt: "Tynecastle, Edinburgh.",
            options: [
       {
         text: "Oh nice, we can visit Gorgie City Farm.",
@@ -589,8 +598,8 @@ date: "30/12/23",
 text: 
 "Gorgie City Farm has closed.",
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+    image: gorgieCityFarm
+    alt: "Gorgie City Farm with a 'Regrettably we are closed' sign on the gate.",
            options: [
       {
         text: "Ach, well, might as well do the football then.",
@@ -605,8 +614,8 @@ date: "30/12/23",
 text: 
 "You have drawn 2-2 with Hearts!",
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+image: buckled,
+alt: "Collapsing on the floor, as if giving up",
                   options: [
       {
         text: "Warn the players that you'll be seeking reinforcements in the transfer window.",
@@ -647,12 +656,12 @@ date: "02/01/24",
     text: 
 `You are about to play Aberdeen.
 
-The game is at Victoria Park, Dingwall.
+The game will be played at Victoria Park, Dingwall.
 
 You remain optimistic about your chances following the Hearts match.`,
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+    image: victoriaPark,
+    alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
            options: [
       {
         text: "Tell the players that if they carry on their performance from the last match, you'll do well here.",
@@ -737,8 +746,8 @@ The game will take place at Victoria Park, Dingwall.
 
 You are optimistic following last season"s play-off triumph.`,
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+    image: victoriaPark,
+    alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
            options: [
       {
         text: "Come on lads, a cup run will give us a cause for optimism.",
@@ -846,8 +855,8 @@ date: "26/01/24",
 
 The game will take place at Celtic Park, Glasgow.`,
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+    image: celticPark,
+    alt: "Celtic Park, Glasgow",
            options: [
       {
         text: "Right. We're going to have to get some new players.",
@@ -895,14 +904,14 @@ date: "29/01/24",
     text: 
 `You are about to play Livingston tomorrow.
 
-The game will take place at the Tony Macaroni Stadium, Livingston.
+The game will take place at the Tony Macaroni Arena, Livingston.
 
 Winning the game will pull you level on points with St Johnstone.
 
 Livingstone have been dogshit all season.`,
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: tonyMacaroni,
+    alt: "The Tony Macaroni Arena (aka Almondvale Stadium), Livingston.",
            options: [
 {
 text: "Come on lads, if you put the same effort you put into the Celtic match you'll win here.",
@@ -940,8 +949,8 @@ text: "I've got a bad feeling about this.",
 date: "30/01/24",
     text: "Livingston equalise before half time.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: hugeMistake,
+    alt: "I've made a huge mistake.",
            options: [
 {
 text: "Go out and win the second half.",
@@ -980,8 +989,8 @@ date: "30/01/24",
     text: 
 "You have drawn 2-2 with Livingston.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: helloDarkness,
+    alt: "Hello Darkness my old friend",
            options: [
 {
 text: "Okay, we have a problem seeing out games. Time to go into the transfer market.",
@@ -1062,8 +1071,8 @@ date: "03/02/24",
 
 It is their first away win of the season.`,
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: affleckDarkness,
+alt: "Hello Darkness my old friend",
            options: [
 {
 text: "Punch a wall",
@@ -1084,8 +1093,8 @@ date: "03/02/24",
 
 It is their first away win of the season.`,
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: affleckDarkness,
+    alt: "Hello Darkness my old friend",
            options: [
 {
 text: "Headbutt a wall.",
@@ -1185,8 +1194,8 @@ date: "06/02/24",
     text: 
 "You have lost 5-0 against Motherwell.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: smallDarkness,
+alt: "Hello Darkness my old friend",
            options: [
 {
 text: "As each player enters the dressing room, you ring a bell at them and intone SHAME",
@@ -1205,8 +1214,8 @@ date: "06/02/24",
     text: 
 "You have lost 15-0 to Motherwell.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: soundOfSilence,
+alt: "Sound of Silence plays",
            options: [
 {
 text: "You tell the team that you are going to find their mums and tell them what a disappointment they are.",
