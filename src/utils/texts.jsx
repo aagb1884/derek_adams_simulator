@@ -5,15 +5,21 @@ import tonyMacaroni from '.\images\Almondvale_Stadium.jpg';
 import celticPark from '.\images\Celtic_park_2.jpg';
 import tynecastle from '.\images\Tynecastle_Park.jpg';
 import smisa from '.\images\SMISA.jpg';
-import hugeMistake from '.\images\huge_mistake.gif';
-import helloDarkness from '.\images\hello_darkness.gif';
-import affleckDarkness from '.\images\hello_darkness_affleck.gif';
-import smallDarkness from '.\images\hello_darkness_small.gif';
-import soundOfSilence from '.\images\sound_of_silence.gif';
-import buckled from '.\images\buckled.gif';
+import greetings from '.\images\greetings.jpg';
 import gorgieCityFarm from '.\images\gorgie-farm.jpg';
+import joyfulPeeps from '.\images\people_jumping_happiness_happy_fun_young_joy_jump-875444.jpg';
+import oldTimeyJourno from '.\images\Journalist_With_Pipe.jpg';
+import scotsport from '.\images\scotsport.jpg';
+import sportscene from '.\images\sportscene.jpg';
+import deek1 from '.\images\deek1.jpg';
+import deek2 from '.\images\deek2.jpg';
+import deek3 from '.\images\deek3.jpg';
+import deek4 from '.\images\deek4.jpg';
+import deek5 from '.\images\deek5.jpg';
+import deek6 from '.\images\deek6.jpg';
+import deek7 from '.\images\deek7.jpg';
 
-const texts = [
+const texts = [deek6
   {
     id: 1,
 
@@ -28,11 +34,15 @@ Chairman Roy MacGregor said he had "known for a number of years that Derek wante
 "For us, it was that knowledge, determination and passion for Ross County that was the deciding factors.
 "When we decided that was the route we wanted to go, we got on to it fairly quickly over the weekend and, with Morecambe's agreement, we managed to attract Derek back to the club."
 This will be your numberOfTimesInTheJobth time managing Ross County.`,
-    // image: mainCharacterImage,
-    alt: "A guy looking at the futuristic skyscrapers",
+    image: greetings,
+    alt: "Distorted image of Derek Adams holding a Ross County scarf above his head.",
     options: [
       {
         text: "Let's get cracking.",
+        nextText: 2,
+      },
+      {
+        text: "Bring it on.",
         nextText: 2,
       },
    ]
@@ -61,8 +71,8 @@ The game is at Victoria Park, Dingwall.`,
     id: 3,
 date: "25/11/23",
     text: `You have drawn with Kilmarnock.`,
-    // // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: deek1,
+    alt: "Derek Adams biting his lip.",
     options: [
       {
         text: "Oh well.",
@@ -124,8 +134,8 @@ date: "28/11/23",
     text: 
 "You beat The Buddies 1-0! Clever Derek, keeping the team the same!",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: deek2,
+    alt: "Monochrome image of a relatively happy Derek Adams",
     options: [
       {
         text: "Yaaaaas",
@@ -143,8 +153,8 @@ date: "28/11/23",
     text: 
 "You beat The Buddies 2-0! Clever Derek!",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: deek2,
+    alt: "Monochrome image of a relatively happy Derek Adams",
     options: [
       {
         text: "Yaaaaaaaaas",
@@ -162,8 +172,8 @@ date: "28/11/23",
     text: 
 "You beat The Buddies 5-0! Clever Derek! Here's to the raw power of your bollocks.",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+      image: deek2,
+      alt: "Monochrome image of a relatively happy Derek Adams",
      options: [
       {
         text: "Yaaaaaaaaaaaaaaaaaaaaaaaaas SOON THEY WILL ALL SEE MY POWER",
@@ -181,9 +191,13 @@ date: "28/11/23",
     text: 
 "Everyone loves you. You've brought the feelgood factor back to Dingwall.",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: deek3,
+    alt: "A very cheerful Derek Adams.",
      options: [
+      {
+        text: "Wee Deek always brings the party!",
+        nextText: 11,
+      },
       {
         text: "Onwards to the next match lads!",
         nextText: 11,
@@ -196,11 +210,15 @@ date: "28/11/23",
     text: 
 "Folk are pretty happy so aren't bothered by your lukewarm response.",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: joyfulPeeps,
+    alt: "People jumping for joy against the backdrop of a colourful sunset",
      options: [
       {
         text: "Right, let's go again then.",
+        nextText: 11,
+      },
+      {
+        text: "Good because I'm no here to make friends.",
         nextText: 11,
       }
     ],
@@ -211,8 +229,8 @@ date: "04/12/23",
     text: 
 "A press guy with an old timey New York accent asks you how you're feeling about the Motherwell game tomorrow.",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: oldTimeyJourno,
+    alt: "An Old Timey journalist, probably with a Brooklyn accent, relaying his notes down the phone.",
      options: [
       {
         text: "Bring it on, we're on a roll",
@@ -230,8 +248,8 @@ date: "04/12/23",
     text: 
 "Everyone is very happy, the journos in the big city think you're just swell",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: scotsport,
+    alt: "The Scotsport panel discuss the latest news in Scottish football.",
      options: [
       {
         text: "Let's crush those Steelmen like Thatcher did",
@@ -249,11 +267,15 @@ date: "04/12/23",
     text: 
 "The journalist finds your candour refreshing.",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: sportscene,
+    alt: "Three vague shapes discuss the latest SPFL action.",
       options: [
       {
-        text: "You do not care. Your focus is entirely on the next match.",
+        text: "You do not care. If anything you find the praise of these formless blobs patronising.",
+        nextText: 14,
+      },
+      {
+        text: "That's nice but your focus is entirely on the next match.",
         nextText: 14,
       }
     ],
@@ -264,8 +286,8 @@ date: "05/12/23",
     text: "Ross County beat Motherwell 3-0!",
 
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: deek4,
+    alt: "A very chipper Derek Adams.",
            options: [
       {
         text: "Yes lads, we thrashed them like an old fashioned school teacher with unprocessed trauma from one of the two major wars of the 20th century would thrash a mildly cheeky schoolboy.",
@@ -328,8 +350,8 @@ date: "09/12/23",
 
 Manager Derek Adams is asked for his opinion on the match.`,
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+image: deek6,
+alt: "Derek Adams giving an interview",
            options: [
       {
         text: "Nayhaps I was unwise to fire the lads up so much. It was like Pompeii out there, underwhelming and featuring Kit Harington.",
@@ -350,8 +372,8 @@ date: "09/12/23",
 
 Manager Derek Adams is asked for his opinion on the match.`,
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: deek6,
+    alt: "Derek Adams giving an interview",
            options: [
       {
         text: "Treat this like a new game. A new game of football. Not like a brand new game, like you sometimes get on The Crystal Maze.",
@@ -371,8 +393,8 @@ text:
 
 Manager Derek Adams is asked for his opinion on the match.`,
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+      image: deek6,
+      alt: "Derek Adams giving an interview",
           options: [
       {
         text: "Treat this like a new game. A new game of football. Not like a brand new game, like you sometimes get on The Crystal Maze.",
@@ -414,8 +436,8 @@ date: "16/12/23",
 text: 
 "You got beat by Dundee.",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: deek7,
+    alt: "Derek Adams closes his eyes and makes a decision.",
            options: [
       {
         text: "Remind the players that you've been creating chances and if they keep playing like this they'll be okay, they were just unlucky tonight.",
@@ -435,8 +457,8 @@ date: "16/12/23",
 text: 
 "You got beat by Dundee.",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+image: deek7,
+alt: "Derek Adams closes his eyes and makes a decision.",
            options: [
             {
                 text: "Remind the players that you've been creating chances and if they keep playing like this they'll be okay, they were just unlucky tonight.",
@@ -454,13 +476,17 @@ date: "16/12/23",
 text: 
 "On second thoughts…",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+image: deek7,
+alt: "Derek Adams closes his eyes and makes a decision.",
            options: [
             {
                 text: "announce that Scottish football is so bad you'd rather where a suit where a pipe connected your mouth and anus at all times. Sky would be better off buying the rights to an international de-gloving tournament. Watching Scottish football makes you feel like joining a death cult.  You'd rather watch reruns of 9/11. To cheer yourself up you're going home to sit in the dark and think about the last time you saw your dad.",
               nextText: 23
             },
+            {
+              text: "Same but in a bad Spanish accent.",
+            nextText: 23
+          },
     ],
   },
 
@@ -471,8 +497,8 @@ date: "16/12/23",
 text: 
 "You have upset your players, your fans, your chairman, all other players and fans, pundits and your mum.",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: deek5
+    alt: "Derek looks into the middle distance.",
            options: [
       {
         text: "don't back down, double down",
