@@ -1,4 +1,5 @@
 .mainComponent-container {
+  font-family: "Rubik Mono One", monospace;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -9,30 +10,43 @@
   opacity: 0;
 }
 
+.mainComponent-container > h1 {
+  text-align: center;
+  font-size: xxx-large;
+}
+
 .mainComponent-imageAndText {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
   border: 5px solid var(--tertiaryColor);
+  margin: 5%;
+  
   position: relative;
   width: -webkit-fill-available;
   width: -moz-available;
 }
 
 .mainComponent-menuBtn {
-  --x-width: calc(var(--menuBtn-height) * 1.41421356237);
+  --menuBtn-gap: 8px; /* Adjust as needed */
+  --menuBtn-margin: 16px; /* Adjust as needed */
+  --bar-width: 30px; /* Adjust the width of the burger icon */
+  --bar-height: 4px; /* Adjust the height of the burger icon */
+  --secondaryColor: black;
   display: flex;
   flex-direction: column;
   gap: var(--menuBtn-gap);
   width: max-content;
-  position: absolute;
+  position: fixed; /* Change from absolute to fixed */
   top: var(--menuBtn-margin);
   right: var(--menuBtn-margin);
   cursor: pointer;
   opacity: 0.5;
   transition: 0.5s;
+  border: 2px solid black;
 }
+
 
 .mainComponent-menuBtn:hover {
   opacity: 1;
@@ -84,12 +98,13 @@
 
 .mainComponent-image {
   margin: auto;
+  max-width: 600px;
+  width: auto;
 }
 
 .mainComponent-text {
   border-top: 1px solid var(--secondaryColor);
   border-bottom: 1px solid var(--secondaryColor);
-  font-family: "Turret Road", cursive;
   font-size: 1.4rem;
   white-space: pre-line;
   margin: 3vw;
@@ -159,9 +174,9 @@
 }
 
 .mainComponent-rightBtn {
+  font-family: "Rubik Mono One", monospace;
   box-sizing: inherit;
   background-color: var(--secondaryBackground);
-  font-family: "Turret Road", cursive;
   font-size: 1.25rem;
   width: 250px;
   margin: 2vw;
@@ -172,13 +187,16 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  border: 1px solid var(--tertiaryColor);
-  color: var(--tertiaryColor);
+  border: 2px solid;
+  border-radius: 4px;
+  color: black;
   transition: 0.5s;
 }
 
 .mainComponent-rightBtn:hover {
-  border: 1px solid var(--secondaryColor);
+  border: 2px solid;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgb(188, 188, 199);
   color: var(--secondaryColor);
   transition: 0.5s;
 }
@@ -188,9 +206,9 @@
 }
 
 .mainComponent-leftBtn {
+  font-family: "Rubik Mono One", monospace;
   box-sizing: inherit;
   background-color: var(--secondaryBackground);
-  font-family: "Turret Road", cursive;
   font-size: 1.25rem;
   width: 250px;
   margin: 2vw;
@@ -201,13 +219,16 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  border: 1px solid var(--tertiaryColor);
-  color: var(--tertiaryColor);
+  border: 2px solid;
+  border-radius: 4px;
+  color: black;
   transition: 0.5s;
 }
 
 .mainComponent-leftBtn:hover {
-  border: 1px solid var(--secondaryColor);
+  border: 2px solid;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgb(188, 188, 199);
   color: var(--secondaryColor);
   transition: 0.5s;
 }

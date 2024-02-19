@@ -12,7 +12,8 @@ function GameScreen() {
 
   const components = texts.map((text) => {
     return (
-      <>
+      <content className="gameScreen"> 
+        
         <MainComponent
           key={text.id}
           text={text.text}
@@ -25,7 +26,7 @@ function GameScreen() {
           alt={text.alt}
           
         />
-      </>
+      </content>
     );
   });
 

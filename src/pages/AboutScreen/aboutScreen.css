@@ -1,5 +1,5 @@
 .aboutScreen-container {
-  font-family: "Orbitron", sans-serif;
+  font-family: "Rubik Mono One", monospace;
   letter-spacing: 0.1rem;
   color: var(--primaryColor);
   display: flex;

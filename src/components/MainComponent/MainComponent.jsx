@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./mainComponent.css";
@@ -12,9 +11,8 @@ function MainComponent({
   idLeft,
   idRight,
   image,
-  additionalImage,
   alt,
-  additionalImageAlt,
+  
 }) {
   const [menuToggle, setMenuToggle] = useState(false);
 
@@ -24,6 +22,7 @@ function MainComponent({
 
   return (
     <div className="mainComponent-container">
+      <h1>You are Derek Adams</h1>
       {menuToggle && <Header />}
       <div className="mainComponent-imageAndText">
         <label className="mainComponent-menuBtn">
@@ -33,31 +32,13 @@ function MainComponent({
             onChange={handleMenuToggle}
           />
         </label>
-        {/* <img className="mainComponent-image" src={image} alt={alt} /> */}
+        <img className="mainComponent-image" src={image} alt={alt} />
         <p className="mainComponent-text">{text}</p>
         {alt === "Humanoid robo-rabbit" && (
           <a id="portal" href="https://the-final-piece.vercel.app/"></a>
         )}
       </div>
       <div className="mainComponent-options">
-        {additionalImage && (
-          <img
-            className="mainComponent-additionalImage"
-            src={additionalImage}
-            alt={additionalImageAlt}
-          />
-        )}
-        {additionalImageAlt === "The End" && (
-          <>
-            <h3 className="mainComponent-thankYouMessage">
-              Thank you for playing & reading my story.
-            </h3>
-         
-            <Link className="mainComponent-creditsLink" to="/credits">
-              Credits
-            </Link>
-          </>
-        )}
         <div className="mainComponent-buttons">
           <button
             onClick={() => setOption(idLeft)}

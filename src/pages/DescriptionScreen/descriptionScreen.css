@@ -1,5 +1,5 @@
 .descriptionScreen-container {
-  font-family: "Orbitron", sans-serif;
+  font-family: "Rubik Mono One", monospace;
   color: var(--primaryColor);
   animation: descriptionScreen-load 400ms ease-in 200ms;
   animation-fill-mode: forwards;
@@ -15,7 +15,7 @@
 }
 
 .descriptionScreen-text {
-  font-family: "Turret Road", cursive;
+  
   font-size: 1.4rem;
   padding: 2vh 2vw;
   margin: 0 1vw;
@@ -43,8 +43,7 @@
 }
 
 .descriptionScreen-subHeader {
-  font-family: "Orbitron", sans-serif;
-  font-size: 1.4rem;
+    font-size: 1.4rem;
 }
 
 .descriptionScreen-socialMediaLink {

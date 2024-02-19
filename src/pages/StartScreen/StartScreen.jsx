@@ -6,11 +6,12 @@ function StartScreen() {
   return (
     <div className="startScreen-container">
       <div className="startScreen-cover">
-        {/* <div className="startScreen-image"></div>
         <div className="startScreen-image"></div>
-        <div className="startScreen-image"></div> */}
+        <div className="startScreen-image"></div>
+        <div className="startScreen-image"></div>
       </div>
       <h1 className="startScreen-title">You are Derek Adams</h1>
+      <h2 className="startScreen-subtitle">A management simulator.</h2>
       <div className="startScreen-menu">
         <Link className="startScreen-btn" to="/game">
           Start
