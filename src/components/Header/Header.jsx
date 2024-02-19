@@ -9,15 +9,7 @@ function Header() {
       <Link className="header-link" to="/">
         Start Screen
       </Link>
-      {location.pathname === "/story" ? (
-        <a className="header-link" href="#top">
-          Story Description
-        </a>
-      ) : (
-        <Link className="header-link" to="/story">
-          Story Description
-        </Link>
-      )}
+            
       <Link className="header-link" to="/about">
         About
       </Link>

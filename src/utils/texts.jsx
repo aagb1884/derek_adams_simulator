@@ -1,49 +1,49 @@
 // state numberOfTimesInTheJob = 3
 // setNumberOfTimesInTheJob(numberOfTimesInTheJob)
-import victoriaPark from '.\images\GlobalEnergyStadiumDingwall.jpg';
-import tonyMacaroni from '.\images\Almondvale_Stadium.jpg';
-import celticPark from '.\images\Celtic_park_2.jpg';
-import tynecastle from '.\images\Tynecastle_Park.jpg';
-import smisa from '.\images\SMISA.jpg';
-import greetings from '.\images\greetings.jpg';
-import gorgieCityFarm from '.\images\gorgie-farm.jpg';
-import joyfulPeeps from '.\images\people_jumping_happiness_happy_fun_young_joy_jump-875444.jpg';
-import oldTimeyJourno from '.\images\Journalist_With_Pipe.jpg';
-import scotsport from '.\images\scotsport.jpg';
-import sportscene from '.\images\sportscene.jpg';
-import oofSizeLarge from '.\images\oof_size_large.jpg';
-import wyvern from '.\images\F._21r._Wyvern.jpg';
-import christmasPresents from '.\images\christmas_present.jpg';
-import buckled from '.\images\buckled.jpg';
-import helloDarkness from '.\images\hello_darkness.gif';
-import happyNewYear from '.\images\happy_new_year.jpg';
-import kingsley from '.\images\kingsley.jpg';
-import hugeMistake from '.\images\huge_mistake.jpg';
-import turkey from '.\images\turkey.jpg';
-import ruPaul from '.\images\rupaul.jpg';
-import meh from '.\images\meh.jpg';
-import fisticuffs from '.\images\Giulio_del_Torre_Zwei_raufende_Buben_1927.jpg';
-import kneeInBalls from '.\images\Knee_Kick_to_Groin.jpg';
-import hairPulling from '.\images\The_Laws_of_Hywel_Dda_(f.15.v)_hair_pulling_(cropped).png';
-import wallPunch from '.\images\Walll_PANCH.jpg';
-import jousting from '.\images\Paulus_Hector_Mair_Tjost_fig2.jpg';
-import bestBoss from '.\images\best_boss.jpg';
-import bellEnd from '.\images\bell_end.jpg';
-import windowClosed from '.\images\window_closed.jpg';
-import playerSigned from '.\images\signing1.jpg';
-import scarfAloft from '.\images\scarf_aloft.jpg';
-import scouting from '.\images\buy_a_player.jpg';
-import buyHim from '.\images\buy_a_player2.jpg';
-import redknapp from '.\images\redknapp.jpg';
-import deek1 from '.\images\deek1.jpg';
-import deek2 from '.\images\deek2.jpg';
-import deek3 from '.\images\deek3.jpg';
-import deek4 from '.\images\deek4.jpg';
-import deek5 from '.\images\deek5.jpg';
-import deek6 from '.\images\deek6.jpg';
-import deek7 from '.\images\deek7.jpg';
+import victoriaPark from '../images/GlobalEnergyStadiumDingwall.jpg';
+import tonyMacaroni from '../images/Almondvale_Stadium.jpg';
+import celticPark from '../images/Celtic_park_2.jpg';
+import tynecastle from '../images/Tynecastle_Park.jpg';
+import smisa from '../images/SMISA.jpg';
+import greetings from '../images/greetings.jpg';
+import gorgieCityFarm from '../images/gorgie-farm.jpg';
+import joyfulPeeps from '../images/people_jumping_happiness_happy_fun_young_joy_jump-875444.jpg';
+import oldTimeyJourno from '../images/Journalist_With_Pipe.jpg';
+import scotsport from '../images/scotsport.jpg';
+import sportscene from '../images/sportscene.jpg';
+import oofSizeLarge from '../images/oof_size_large.jpg';
+import wyvern from '../images/F._21r._Wyvern.jpg';
+import christmasPresents from '../images/christmas_present.jpg';
+import buckled from '../images/buckled.jpg';
+import helloDarkness from '../images/hello_darkness.gif';
+import happyNewYear from '../images/happy_new_year.jpg';
+import kingsley from '../images/kingsley.jpg';
+import hugeMistake from '../images/huge_mistake.jpg';
+import turkey from '../images/turkey.jpg';
+import ruPaul from '../images/rupaul.jpg';
+import meh from '../images/meh.jpg';
+import fisticuffs from '../images/Giulio_del_Torre_Zwei_raufende_Buben_1927.jpg';
+import kneeInBalls from '../images/Knee_Kick_to_Groin.jpg';
+import hairPulling from '../images/The_Laws_of_Hywel_Dda_(f.15.v)_hair_pulling_(cropped).png';
+import wallPunch from '../images/Walll_PANCH.jpg';
+import jousting from '../images/Paulus_Hector_Mair_Tjost_fig2.jpg';
+import bestBoss from '../images/best_boss.jpg';
+import bellEnd from '../images/bell_end.jpg';
+import windowClosed from '../images/window_closed.jpg';
+import playerSigned from '../images/signing1.jpg';
+import scarfAloft from '../images/scarf_aloft.jpg';
+import scouting from '../images/buy_a_player.jpg';
+import buyHim from '../images/buy_a_player2.jpg';
+import redknapp from '../images/redknapp.jpg';
+import deek1 from '../images/deek1.jpg';
+import deek2 from '../images/deek2.jpg';
+import deek3 from '../images/deek3.jpg';
+import deek4 from '../images/deek4.jpg';
+import deek5 from '../images/deek5.jpg';
+import deek6 from '../images/deek6.jpg';
+import deek7 from '../images/deek7.jpg';
 
-const texts = [deek6
+const texts = [
   {
     id: 1,
 
@@ -666,7 +666,7 @@ text:
       {
         text: "Tell yourself there will be another chance to feed a llama some pellets.",
         nextText: 29
-      }
+      },
       {
         text: "Sit outside in a huff while your assistant does the first half.",
         nextText: 29
@@ -949,7 +949,7 @@ date: "27/01/24",
             {
 text: "Could have been worse.",
         nextText: 46
-      }
+      },
             {
 text: "Ask Brendan Rodgers for management advice.",
         nextText: 46

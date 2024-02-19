@@ -22,9 +22,8 @@ function GameScreen() {
           idLeft={text.options[0].nextText}
           idRight={text.options[1].nextText}
           image={text.image}
-          additionalImage={text.additionalImage}
           alt={text.alt}
-          additionalImageAlt={text.additionalImageAlt}
+          
         />
       </>
     );
