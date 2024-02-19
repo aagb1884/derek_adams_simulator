@@ -11,6 +11,30 @@ import joyfulPeeps from '.\images\people_jumping_happiness_happy_fun_young_joy_j
 import oldTimeyJourno from '.\images\Journalist_With_Pipe.jpg';
 import scotsport from '.\images\scotsport.jpg';
 import sportscene from '.\images\sportscene.jpg';
+import oofSizeLarge from '.\images\oof_size_large.jpg';
+import wyvern from '.\images\F._21r._Wyvern.jpg';
+import christmasPresents from '.\images\christmas_present.jpg';
+import buckled from '.\images\buckled.jpg';
+import helloDarkness from '.\images\hello_darkness.gif';
+import happyNewYear from '.\images\happy_new_year.jpg';
+import kingsley from '.\images\kingsley.jpg';
+import hugeMistake from '.\images\huge_mistake.jpg';
+import turkey from '.\images\turkey.jpg';
+import ruPaul from '.\images\rupaul.jpg';
+import meh from '.\images\meh.jpg';
+import fisticuffs from '.\images\Giulio_del_Torre_Zwei_raufende_Buben_1927.jpg';
+import kneeInBalls from '.\images\Knee_Kick_to_Groin.jpg';
+import hairPulling from '.\images\The_Laws_of_Hywel_Dda_(f.15.v)_hair_pulling_(cropped).png';
+import wallPunch from '.\images\Walll_PANCH.jpg';
+import jousting from '.\images\Paulus_Hector_Mair_Tjost_fig2.jpg';
+import bestBoss from '.\images\best_boss.jpg';
+import bellEnd from '.\images\bell_end.jpg';
+import windowClosed from '.\images\window_closed.jpg';
+import playerSigned from '.\images\signing1.jpg';
+import scarfAloft from '.\images\scarf_aloft.jpg';
+import scouting from '.\images\buy_a_player.jpg';
+import buyHim from '.\images\buy_a_player2.jpg';
+import redknapp from '.\images\redknapp.jpg';
 import deek1 from '.\images\deek1.jpg';
 import deek2 from '.\images\deek2.jpg';
 import deek3 from '.\images\deek3.jpg';
@@ -497,9 +521,13 @@ date: "16/12/23",
 text: 
 "You have upset your players, your fans, your chairman, all other players and fans, pundits and your mum.",
 
-    image: deek5
+    image: deek5,
     alt: "Derek looks into the middle distance.",
            options: [
+      {
+        text: "oh fine, it'll all blow over",
+        nextText: 24
+      },
       {
         text: "don't back down, double down",
         nextText: 24
@@ -513,11 +541,15 @@ date: "22/12/23",
 text: 
 "All week people have been talking about your comments about Scottish Football. You'll be glad just to get back to football after that, starting with tomorrow's game against Hibs.",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: oofSizeLarge,
+    alt: "A dial marked 'OOF SIZE' set to 'Large'.",
            options: [
       {
         text: "Prepare a mid-block press with a quick release to your most creative player. Let's get them on the break. This is going to surprise people.",
+        nextText: 25
+      },
+      {
+        text: "Update your list of enemies.",
         nextText: 25
       }
     ],
@@ -529,8 +561,8 @@ date: "23/12/23",
 text: 
 "The game against Hibs has been postponed due to an escaped wyvern.",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: wyvern,
+    alt: "A wyvern, as seen in a 14th century Welsh manuscript.",
            options: [
       {
         text: "Ah well, let's look forward to the next game.",
@@ -545,8 +577,8 @@ date: "26/12/23",
 text: 
 "Your next game is against Rangers, a team Ross County have never beaten.",
 
-    // image: finalLoopImage,
-    alt: "Character looking at the futuristic tower.",
+    image: helloDarkness,
+    alt: "Ben Affleck looking sad.",
            options: [
       {
         text: "right, well, we'll just call that a free hit I guess.",
@@ -585,9 +617,13 @@ date: "27/12/23",
 text: 
 "Mmmrrrrrrrrow, ptchee ptchee, ratatatatatata",
 
-    // image: christmasPresents,
-        alt: "Derek's Christmas Presents.",
+    image: christmasPresents,
+        alt: "Derek with his Christmas Presents.",
            options: [
+      {
+        text: "Continue rescuing the Princess from the evil .",
+        nextText: 29
+      },
       {
         text: "Continue eating turkey, your favourite meat.",
         nextText: 29
@@ -602,8 +638,8 @@ date: "30/12/23",
 text: 
 "You are winning 2-0 at Hearts with twenty minutes to go!",
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+    image: turkey,
+    alt: "Delicious turkey",
            options: [
       {
         text: "Continue eating turkey, your favourite meat.",
@@ -624,14 +660,17 @@ date: "30/12/23",
 text: 
 "Gorgie City Farm has closed.",
 
-    image: gorgieCityFarm
+    image: gorgieCityFarm,
     alt: "Gorgie City Farm with a 'Regrettably we are closed' sign on the gate.",
            options: [
       {
-        text: "Ach, well, might as well do the football then.",
+        text: "Tell yourself there will be another chance to feed a llama some pellets.",
         nextText: 29
       }
-
+      {
+        text: "Sit outside in a huff while your assistant does the first half.",
+        nextText: 29
+      }
     ],
   },
 {
@@ -661,8 +700,8 @@ date: "30/12/23",
 text: 
 "You have drawn 2-2 with Hearts.",
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+image: buckled,
+alt: "Collapsing on the floor, as if giving up",
            options: [
       {
         text: "Warn the players that you'll be seeking reinforcements in the transfer window.",
@@ -707,8 +746,8 @@ date: "02/01/24",
     text: 
 "Aberdeen gub you 3-0.",
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+    image: happyNewYear,
+    alt: "Happy New Year from everyone at Aberdeen Football Club",
            options: [
       {
 text: "Right. We're going to have to get some new players.",
@@ -728,8 +767,8 @@ date: "02/01/24",
     text: 
     "Aberdeen gub you 3-0.",
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+    image: happyNewYear,
+    alt: "Happy New Year from everyone at Aberdeen Football Club",
            options: [
       {
         text: "Right. We're going to have to get some new players.",
@@ -749,8 +788,8 @@ date: "05/01/24",
     text: 
 "You are now on a mid-season break, returning to action against Partick Thistle in the Scottish Cup on the 20th.",
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+    image: kingsley,
+    alt: "Kingsley, the Partick Thistle mascot.",
            options: [
       {
         text: "Right. We're going to have to get some new players.",
@@ -791,8 +830,8 @@ date: "20/01/24",
     text: 
 "You have lost 3-0 at home to Partick Thistle.",
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+image: deek1,
+alt: "Derek Adams biting his lip.",
            options: [
       {
         text: "Right. We're going to have to get some new players.",
@@ -810,8 +849,8 @@ date: "20/01/24",
     text: 
 "You have lost 12-0 at home to Partick Thistle.",
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+image: deek7,
+alt: "Derek Adams closes his eyes.",
            options: [
       {
         text: "Right. We're going to have to get some new players.",
@@ -830,8 +869,8 @@ date: "23/01/24",
     text: 
 "After losing at home to Partick Thistle the media are asking you if you're happy at Ross County.",
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+    image: hugeMistake,
+    alt: "GOB Bluth from Arrested Development acknowledging that he's made a huge mistake.",
            options: [
       {
         text: "I'm so happy. We're terribly in love.",
@@ -839,7 +878,7 @@ date: "23/01/24",
       },
 {
 text: "What is joy?",
-        nextText: 42
+        nextText: 41
       }
     ],
   },
@@ -849,28 +888,17 @@ date: "23/01/24",
     text: 
 "Derek, do you think you have what it takes to bounce back in the next game?",
 
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
+image: deek2,
+alt: "Monochrome image of a relatively happy Derek Adams",
            options: [
       {
         text: "Oh aye, no bother.",
         nextText: 43
-      }   
- ],
-  },
-{
-    id: 42,
-date: "23/01/24",
-    text: 
-    "Derek, do you think you have what it takes to bounce back in the next game?",
-
-    // image: christmasPresents
-    alt: "Derek's Christmas Presents",
-           options: [
+      },
       {
         text: "Maybe, yeah. Who are we playing again?",
         nextText: 43
-      }   
+      }  
  ],
   },
 {
@@ -900,8 +928,8 @@ date: "27/01/24",
     text: 
 "You are about to play Celtic.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: ruPaul,
+    alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
             {
 text: "Let's just get this over with.",
@@ -915,11 +943,15 @@ date: "27/01/24",
     text: 
 "You have lost 1-0 to Celtic.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: meh,
+    alt: "RuPaul saying 'Meh'.",
            options: [
             {
-text: "Oh. That wasn't that bad.",
+text: "Could have been worse.",
+        nextText: 46
+      }
+            {
+text: "Ask Brendan Rodgers for management advice.",
         nextText: 46
       }
     ],
@@ -956,8 +988,8 @@ date: "30/01/24",
     text: 
 "You are 1-0 up against Livingston with a minute to go before half-time.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: ruPaul,
+alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
 {
 text: "I've got a good feeling about this.",
@@ -976,7 +1008,7 @@ date: "30/01/24",
     text: "Livingston equalise before half time.",
 
     image: hugeMistake,
-    alt: "I've made a huge mistake.",
+    alt: "GOB Bluth from Arrested Development acknowledging that he's made a huge mistake.",
            options: [
 {
 text: "Go out and win the second half.",
@@ -995,8 +1027,8 @@ date: "30/01/24",
     text: 
 "You are 2-1 up against Livingston with five minutes to go.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: ruPaul,
+alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
 {
 text: "I've got a good feeling about this.",
@@ -1006,7 +1038,6 @@ text: "I've got a good feeling about this.",
 text: "I've got a bad feeling about this.",
         nextText: 50
       },
-
     ],
   },
 {
@@ -1015,8 +1046,8 @@ date: "30/01/24",
     text: 
 "You have drawn 2-2 with Livingston.",
 
-    image: helloDarkness,
-    alt: "Hello Darkness my old friend",
+image: buckled,
+alt: "Collapsing on the floor, as if giving up",
            options: [
 {
 text: "Okay, we have a problem seeing out games. Time to go into the transfer market.",
@@ -1035,8 +1066,8 @@ date: "30/01/24",
     text: 
 "You are fighting Gordon Ramsay.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: fisticuffs,
+    alt: "Painting by Giulio del Torre: 'Zwei raufende Buben' (Two Scuffling Boys) 1927.",
            options: [
 {
 text: "Knee him in the bollocks",
@@ -1055,8 +1086,8 @@ date: "30/01/24",
     text: 
 "You knee Gordon Ramsay in the bollocks. He goes down like Martin Boyle.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: kneeInBalls,
+    alt: "A knee to the balls.",
            options: [
 {
 text: "You roar 'That's what we're gonna do to St Johnstone.'",
@@ -1075,8 +1106,8 @@ date: "30/01/24",
     text: 
 "You pull Gordon Ramsay's hair and he screams a feral scream, digging his nails into your wrists. By the time the fight is done you're both in bloody rags, panting in the changing room. Everyone has gone home apart from you and Ramsay. You agree to call it a draw, but at the back of your mind your subconscious tells you 'Draws are no good at this time of the season'.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: hairPulling,
+    alt: "An illustration from a mid-13th century Welsh manuscript.",
            options: [
 {
 text: "Consider Heston Blumenthal for the next team talk.",
@@ -1097,33 +1128,11 @@ date: "03/02/24",
 
 It is their first away win of the season.`,
 
-image: affleckDarkness,
-alt: "Hello Darkness my old friend",
+image: helloDarkness,
+alt: "Ben Affleck looking sad.",
            options: [
 {
 text: "Punch a wall",
-        nextText: 56
-      },
-{
-text: "Dip into the transfer market",
-        nextText: 106
-      },
-
-    ],
-  },
-{
-    id: 55,
-date: "03/02/24",
-    text: 
-`You lose 1-0 to St Johnstone.
-
-It is their first away win of the season.`,
-
-    image: affleckDarkness,
-    alt: "Hello Darkness my old friend",
-           options: [
-{
-text: "Headbutt a wall.",
         nextText: 56
       },
 {
@@ -1139,8 +1148,8 @@ date: "04/02/24",
     text: 
 "The janny gives you a right nagging for damaging the plaster in the changing rooms.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: wallPunch,
+    alt: "A man punching a hole in a wall.",
            options: [
 {
 text: "Meekly apologise.",
@@ -1159,8 +1168,8 @@ date: "04/02/2",
     text: 
 "The janny tells you that you'd better not fuck it up against Motherwell.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: ruPaul,
+alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
 {
 text: "You confidently state that you absolutely will not fuck it up against Motherwell.",
@@ -1179,8 +1188,8 @@ date: "04/02/24",
     text: 
 "The janny tells you that you'd better not fuck it up against Motherwell.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: ruPaul,
+alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
 {
 text: "You confidently state that you absolutely will not fuck it up against Motherwell.",
@@ -1200,8 +1209,8 @@ date: "04/02/24",
     text: 
 "The janny bests you in a medieval joust. You curse yourself for allowing him to pick the format of your battle.",
 
-    // image: ruPaul,
-    alt: "jousting",
+    image: jousting,
+    alt: "16th Century German jousting",
            options: [
 {
 text: "Buy a 4-pack of Aldi-brand Deep Heat and suck it up.",
@@ -1220,8 +1229,8 @@ date: "06/02/24",
     text: 
 "You have lost 5-0 against Motherwell.",
 
-image: smallDarkness,
-alt: "Hello Darkness my old friend",
+image: deek7,
+alt: "Derek Adams closes his eyes and makes a decision.",
            options: [
 {
 text: "As each player enters the dressing room, you ring a bell at them and intone SHAME",
@@ -1239,9 +1248,9 @@ text: "You decide to have a word with the Chairman",
 date: "06/02/24",
     text: 
 "You have lost 15-0 to Motherwell.",
+image: bestBoss,
+    alt: "Blurred image of Steve Carrell in 'The Office' holding mug reading 'World's best boss'.",
 
-image: soundOfSilence,
-alt: "Sound of Silence plays",
            options: [
 {
 text: "You tell the team that you are going to find their mums and tell them what a disappointment they are.",
@@ -1260,13 +1269,17 @@ date: "06/02/24",
     text: 
 "The players grab the bell off you and point to the end of it and say 'That's you that is'. The chairman comes in to see what all the noise is about. You are immediately fired.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: bellEnd,
+    alt: "Street sign in Rowley Regis: 'Bell End'.",
            options: [
 {
-text: "You are no longer manager of Ross County Football Club.",
+text: "Tell people you have resigned as manager of Ross County Football Club, and go update your LinkedIn profile.",
         nextText: 1
-      }
+      },
+      {
+        text: "Tell people you have been fired as manager of Ross County Football Club, and go update your LinkedIn profile.",
+                nextText: 1
+              }
 
     ],
   },
@@ -1276,15 +1289,19 @@ date: "06/02/24",
     text: 
 "The players' mums hear about your behaviour, and surround you in the car park. They take hold of your limbs and pull, like that bit with the horses in the film Black Death. You are saved at the last minute by the chairman riding in on a horse, fending them off with a sabre. As he grabs you from the melee and pulls you onto his horseback, he hands you your P45.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
-           options: [
-{
-text: "You are no longer manager of Ross County Football Club.",
-        nextText: 1
-      }
-
-    ],
+image: kneeInBalls,
+alt: "A knee to the balls.",
+options: [
+  {
+  text: "Tell people you have resigned as manager of Ross County Football Club, and go update your LinkedIn profile.",
+          nextText: 1
+        },
+        {
+          text: "Tell people you have been fired as manager of Ross County Football Club, and go update your LinkedIn profile.",
+                  nextText: 1
+                }
+  
+      ],
   },
 {
     id: 63,
@@ -1292,15 +1309,19 @@ date: "07/02/24",
     text: 
 "Everyone hates you. You go to the Chairman and offer him your resignation.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
-           options: [
-{
-text: "You have resigned as manager of Ross County Football Club",
-        nextText: 1
-      },
-
-    ],
+image: buckled,
+alt: "Collapsing on the floor, as if giving up",
+    options: [
+      {
+      text: "Tell people you have resigned as manager of Ross County Football Club, and go update your LinkedIn profile.",
+              nextText: 1
+            },
+            {
+              text: "Tell people you have been fired as manager of Ross County Football Club, and go update your LinkedIn profile.",
+                      nextText: 1
+                    }
+      
+          ],
   },
 
 {
@@ -1309,8 +1330,8 @@ date: "01/01/24",
     text: 
 "Do you want to buy a player?",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: scouting,
+    alt: "Coaches and scouts assessing a player.",
            options: [
 {
 text: "Yes",
@@ -1330,8 +1351,8 @@ date: "01/01/24",
     text: 
 `You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: playerSigned,
+alt: "A player signing a contract",
            options: [
 {
 text: "Yes",
@@ -1352,8 +1373,8 @@ date: "06/01/24",
     text: 
 "Do you want to buy a player?",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: buyHim,
+alt: "Derek Adams pointing at the player he wants.",
            options: [
 {
 text: "Yes",
@@ -1373,8 +1394,8 @@ date: "06/01/24",
     text: 
 `You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: scarfAloft,
+alt: "A blurred image of a new signing, Ross County scarf aloft",
            options: [
 {
 text: "Yes",
@@ -1394,8 +1415,8 @@ date: "26/01/24",
     text: 
 "Do you want to buy a player?",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: scouting,
+alt: "Coaches and scouts assessing a player.",
            options: [
 {
 text: "Yes",
@@ -1415,8 +1436,8 @@ date: "26/01/24",
     text: 
 `You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: playerSigned,
+alt: "A player signing a contract",
            options: [
 {
 text: "Yes",
@@ -1436,8 +1457,8 @@ date: "29/01/24",
     text: 
 "Do you want to buy a player?",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: buyHim,
+    alt: "Derek Adams pointing at the player he wants.",
            options: [
 {
 text: "Yes",
@@ -1457,8 +1478,8 @@ date: "29/01/24",
     text: 
 `You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+image: scarfAloft,
+alt: "A blurred image of a new signing, Ross County scarf aloft",
            options: [
 {
 text: "Yes",
@@ -1478,8 +1499,8 @@ date: "31/01/24",
     text: 
 "Do you want to buy a player?",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: redknapp,
+    alt: "Harry Redknapp in his car on transfer deadline day.",
            options: [
 {
 text: "Yes",
@@ -1499,8 +1520,8 @@ date: "29/01/24",
     text: 
 `You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: playerSigned,
+    alt: "A player signing a contract",
            options: [
 {
 text: "Yes",
@@ -1520,14 +1541,17 @@ date: "03/02/24",
     text: 
 "The transfer window is closed, you idiot.",
 
-    // image: ruPaul,
-    alt: "And don't fuck it up.",
+    image: windowClosed,
+    alt: "The Transfer Window has closed.",
            options: [
 {
 text: "You kick the wall.",
         nextText: 56
       },
-
+      {
+        text: "You tell the wall you'll get it next time.",
+                nextText: 56
+              },
     ],
   },
 
