@@ -475,7 +475,7 @@ The game will be played at Victoria Park, Dingwall.`,
         nextText: 22
       },
       {
-          text: "announce that Scottish football is so bad you'd rather where a suit where a pipe connected your mouth and anus at all times. Sky would be better off buying the rights to an international de-gloving tournament. Watching Scottish football makes you feel like joining a death cult.  You'd rather watch reruns of 9/11. To cheer yourself up you're going home to sit in the dark and think about the last time you saw your dad.",
+          text: "announce that Scottish football is so bad you'd rather wear a suit where a pipe connected your mouth and anus at all times. Sky would be better off buying the rights to an international de-gloving tournament. Watching Scottish football makes you feel like joining a death cult.  You'd rather watch reruns of 9/11. To cheer yourself up you're going home to sit in the dark and think about the last time you saw your dad.",
         nextText: 23
       },
     ],
@@ -854,7 +854,7 @@ text: "Wait until there's actually a match on to get him out on the pitch.",
 
 The game will take place at Victoria Park, Dingwall.
 
-You are optimistic following last season"s play-off triumph.`,
+You are optimistic following last season's play-off triumph.`,
 
     image: victoriaPark,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
