@@ -13,6 +13,10 @@ function Header() {
       <Link className="header-link" to="/about">
         About
       </Link>
+
+      <Link className="header-link" to="/credits">
+        Credits
+      </Link>
     </div>
   );
 }

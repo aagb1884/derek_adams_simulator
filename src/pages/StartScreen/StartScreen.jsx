@@ -19,6 +19,9 @@ function StartScreen() {
         <Link className="startScreen-btn" to="/about">
           About
         </Link>
+        <Link className="startScreen-btn" to="/credits">
+          Credits
+        </Link>
       </div>
       <Footer />
     </div>

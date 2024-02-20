@@ -11,6 +11,15 @@ function Footer() {
       >
         Version 1.0
       </a>
+      <br />
+      <a
+        className="aboutScreen-personalLink"
+        href="https://andrewblair.co.uk/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Made by Andrew Blair
+      </a>
     </div>
   );
 }

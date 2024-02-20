@@ -7,7 +7,7 @@ import "./descriptionScreen.css";
 function DescriptionScreen() {
   return (
     <div className="descriptionScreen-container">
-      <Header />
+      
       <h2 className="descriptionScreen-header">Description</h2>
       <div className="descriptionScreen-text">
         {/* <img
@@ -45,8 +45,7 @@ function DescriptionScreen() {
             <li>CSS</li>
           </ul>
         </div>
-        
-      <Footer />
+     
     </div>
   );
 }
