@@ -73,17 +73,18 @@ function CreditsScreen() {
           'Zwei raufende Buben' (Two Boys Fighting) by Giulio del Torren</a>. Public domain.
           </li>
           <li><a className="creditsScreen-pictureCredit"
-                href="https://commons.wikimedia.org/wiki/File:Giulio_del_Torre_Zwei_raufende_Buben_1927.jpg"
+                href="https://en.wikipedia.org/wiki/File:F._21r._Wyvern.jpg"
                 target="_blank"
                 rel="noopener noreferrer">
-          'Zwei raufende Buben' (Two Boys Fighting) by Giulio del Torren</a>. Public domain.
+          National Library of Wales</a>on <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">Creative Commons 1.0 Licence</a>.
           </li>
           <li><a className="creditsScreen-pictureCredit"
-                href="https://commons.wikimedia.org/wiki/File:Giulio_del_Torre_Zwei_raufende_Buben_1927.jpg"
+                href="https://commons.wikimedia.org/wiki/File:The_Laws_of_Hywel_Dda_(f.15.v)_hair_pulling_(cropped).png"
                 target="_blank"
                 rel="noopener noreferrer">
-          'Zwei raufende Buben' (Two Boys Fighting) by Giulio del Torren</a>. Public domain.
+          National Library of Wales</a>on <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">Creative Commons 1.0 Licence</a>.
           </li>
+          
         </ul>
         </div>
       <br />
