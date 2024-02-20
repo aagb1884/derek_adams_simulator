@@ -1248,7 +1248,7 @@ text: "Actually no",
            options: [
 {
 text: "Here we, here we, here we fucking go",
-        nextText: 60
+        nextText: 65
       },
 {
 text: "I should probably stop fingering my bones",
