@@ -1,5 +1,3 @@
-// state numberOfTimesInTheJob = 3
-// setNumberOfTimesInTheJob(numberOfTimesInTheJob)
 import victoriaPark from '../images/GlobalEnergyStadiumDingwall.jpg';
 import tonyMacaroni from '../images/Almondvale_Stadium.jpg';
 import celticPark from '../images/Celtic_park_2.jpg';
@@ -44,6 +42,16 @@ import deek5 from '../images/deek5.jpg';
 import deek6 from '../images/deek6.jpg';
 import deek7 from '../images/deek7.jpg';
 
+const firstNames = ["Chad", "Jortson", "Hot-Tod", "Popey", "Tim", "Jolkien", "Clolin", "Llewelyn", "Alfie", "Josh", "Porous", "Pip", "Dan", "Thanos", "Adamski", "Trey", "Clive", "Harris"];
+
+const lastNames = ["Whittle-Harpington", "Thwenks", "With the good hair", "Borthwick-Juniper", "Fey","Rash", "Swift", "Coldhorn", "Horus", "Cloche","Cummings", "Minsk", "feat. Seal", "Jeevesy", "Dunne-Dunne"];
+ 
+const positions = ["centre back", "left back", "right back", "defensive midfielder", "midfield lynchpin", "ball-playing centre back", "goalkeeper", "no nonsense centre back", "wing back", "midfield enforcer", "spare kidney for Yan Dhanda"];
+
+function getRandomItem(array) {
+    return array[Math.floor(Math.random() * array.length)];
+  }
+
 const texts = [
   {
     id: 1,
@@ -57,7 +65,7 @@ Chairman Roy MacGregor said he had "known for a number of years that Derek wante
 "We had 70 applications to go through, but the name Derek Adams kept coming back," he said.
 "For us, it was that knowledge, determination and passion for Ross County that was the deciding factors.
 "When we decided that was the route we wanted to go, we got on to it fairly quickly over the weekend and, with Morecambe's agreement, we managed to attract Derek back to the club."
-This will be your numberOfTimesInTheJobth time managing Ross County.`,
+This will be your 3rd time managing Ross County.`,
     image: greetings,
     alt: "Distorted image of Derek Adams holding a Ross County scarf above his head.",
     options: [
@@ -690,17 +698,16 @@ The game will be played at Tynecastle, Edinburgh.`,
   {
     id: 33,
     date: "01/01/24",
-    text: 
-`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+    text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)}, a ${getRandomItem(positions)}. You're sure he can make a big contribution.`,
     image: playerSigned,
     alt: "A player signing a contract",
            options: [
       {
-        text: "Yes",
-        nextText: 32
+        text: "Get him straight in the first team",
+        nextText: 35
       },
       {
-        text: "No.",
+        text: "Ease him into the picture, don't rush things.",
         nextText: 34
       },
     ],
@@ -765,18 +772,17 @@ text: "Actually no.",
 {
     id: 37,
     date: "03/01/24",
-    text: 
-`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+    text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)}, a ${getRandomItem(positions)}. How do you welcome him to the club?`,
 
     image: scarfAloft,
     alt: "A blurred image of a new signing, Ross County scarf aloft",
            options: [
 {
-text: "Yes",
-        nextText: 36
+text: "Mandatory Roshambo Nut-Kicking Tournament.",
+        nextText: 38
       },
 {
-text: "No.",
+text: "Sensory deprivation tank for first 24 hours.",
         nextText: 38
       },
 
@@ -824,18 +830,17 @@ text: "Actually no.",
 {
     id: 40,
 date: "06/01/24",
-    text: 
-`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)}, a ${getRandomItem(positions)}. You're pretty excited about this one.`,
 
 image: playerSigned,
 alt: "A player signing a contract",
            options: [
 {
-text: "Yes",
-        nextText: 39
+text: "Get him right out on the pitch immediately.",
+        nextText: 41
       },
 {
-text: "No.",
+text: "Wait until there's actually a match on to get him out on the pitch.",
         nextText: 41
       },
 
@@ -925,18 +930,17 @@ text: "Actually no.",
 {
     id: 45,
 date: "21/01/24",
-    text: 
-`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)}, a ${getRandomItem(positions)}. So that's nice.`,
 
 image: scarfAloft,
 alt: "A blurred image of a new signing, Ross County scarf aloft",
            options: [
 {
-text: "Yes",
-        nextText: 44
+text: "Yep.",
+        nextText: 46
       },
 {
-text: "No.",
+text: "You feel a brief twinge of hope.",
         nextText: 46
       },
 
@@ -1026,18 +1030,17 @@ text: "Actually no.",
 {
     id: 50,
 date: "26/01/24",
-    text: 
-`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)}, a ${getRandomItem(positions)}. Chuck 'em in at the deep end?`,
 
 image: playerSigned,
 alt: "A player signing a contract",
            options: [
 {
-text: "Yes",
-        nextText: 49
+text: "Yeah",
+        nextText: 51
       },
 {
-text: "No.",
+text: "Do you know what I miss? 'Space Precinct'. Now that was television.",
         nextText: 51
       },
 
@@ -1089,7 +1092,7 @@ The game will take place at the Tony Macaroni Arena, Livingston.
 
 Winning the game will pull you level on points with St Johnstone.
 
-Livingstone have been dogshit all season.`,
+Livingston have been dogshit all season.`,
 
     image: tonyMacaroni,
     alt: "The Tony Macaroni Arena (aka Almondvale Stadium), Livingston.",
@@ -1128,18 +1131,17 @@ text: "Actually no.",
 {
     id: 55,
 date: "29/01/24",
-    text: 
-`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)}, a ${getRandomItem(positions)}. This one'll be the difference-maker.`,
 
 image: scarfAloft,
 alt: "A blurred image of a new signing, Ross County scarf aloft",
            options: [
 {
-text: "Yes",
-        nextText: 54
+text: "100%",
+        nextText: 56
       },
 {
-text: "No.",
+text: "47%",
         nextText: 56
       },
 
@@ -1242,16 +1244,16 @@ text: "Actually no.",
 {
     id: 61,
     date: "31/01/24",
-    text: `You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+    text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)}, a ${getRandomItem(positions)}. He'll be great. You can feel it in your bones.`,
     image: playerSigned,
     alt: "A player signing a contract",
            options: [
 {
-text: "Yes.",
+text: "Here we, here we, here we fucking go.",
         nextText: 60
       },
 {
-text: "No.",
+text: "I should probably stop fingering my bones.",
         nextText: 65
       },
 
