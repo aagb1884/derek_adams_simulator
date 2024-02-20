@@ -47,7 +47,7 @@ Chairman Roy MacGregor said he had "known for a number of years that Derek wante
 "We had 70 applications to go through, but the name Derek Adams kept coming back," he said.
 "For us, it was that knowledge, determination and passion for Ross County that was the deciding factors.
 "When we decided that was the route we wanted to go, we got on to it fairly quickly over the weekend and, with Morecambe's agreement, we managed to attract Derek back to the club."
-This will be your ${numberOfTimesInTheJob}th time managing Ross County.`;
+Adams has now managed County ${numberOfTimesInTheJob} times.`;
 
   return <div className="gameScreen-container">{components[option - 1]}</div>;
 }
