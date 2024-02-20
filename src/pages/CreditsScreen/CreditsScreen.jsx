@@ -9,7 +9,7 @@ function CreditsScreen() {
     <section className="creditsScreen-container">
       <h1 className="creditsScreen-header">Credits</h1>
       <div className="creditsScreen-block">
-        <h2 className="creditsScreen-text">Written and developed by <a
+        <h2 className="creditsScreen-text">Written and developed by{" "}<a
         className="aboutScreen-personalLink"
         href="https://andrewblair.co.uk/"
         target="_blank"

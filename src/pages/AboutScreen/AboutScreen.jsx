@@ -8,6 +8,7 @@ function AboutScreen() {
     <div className="aboutScreen-container">
       <h1 className="aboutScreen-title">Derek Adams Simulator</h1>
       <h2>A Reasonably Interactive Text-Adventure Game</h2>
+      <DescriptionScreen />
         <div className="aboutScreen-linksContainer">
         <Link className="aboutScreen-link" to="/">
           {">"} Start Screen
@@ -16,7 +17,7 @@ function AboutScreen() {
           {">"} Credits
         </Link>
       </div>
-      <DescriptionScreen />
+      
       
       <Footer />
     </div>
