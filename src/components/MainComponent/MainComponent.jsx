@@ -5,6 +5,7 @@ import "./mainComponent.css";
 
 function MainComponent({
   text,
+  date,
   btnLeft,
   btnRight,
   setOption,
@@ -33,10 +34,11 @@ function MainComponent({
           />
         </label>
         <img className="mainComponent-image" src={image} alt={alt} />
-        <p className="mainComponent-text">{text}</p>
-        {alt === "Humanoid robo-rabbit" && (
-          <a id="portal" href="https://the-final-piece.vercel.app/"></a>
-        )}
+        <p className="mainComponent-text">
+          <b>{date}</b>
+          <br />
+          <br />
+          {text}</p>
       </div>
       <div className="mainComponent-options">
         <div className="mainComponent-buttons">

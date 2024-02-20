@@ -35,6 +35,7 @@ import scarfAloft from '../images/scarf_aloft.jpg';
 import scouting from '../images/buy_a_player.jpg';
 import buyHim from '../images/buy_a_player2.jpg';
 import redknapp from '../images/redknapp.jpg';
+import capSoMeme from '../images/cap_so_meme.jpeg';
 import deek1 from '../images/deek1.jpg';
 import deek2 from '../images/deek2.jpg';
 import deek3 from '../images/deek3.jpg';
@@ -260,7 +261,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
         nextText: 12,
       },
       {
-        text: "Don't give a shit mate.",
+        text: "Don't give a shite mate.",
         nextText: 13,
       },
     ],
@@ -452,7 +453,6 @@ The game will be played at Victoria Park, Dingwall.`,
     ],
   },
 
-
 {
     id: 21,
     date: "16/12/23",
@@ -473,14 +473,10 @@ The game will be played at Victoria Park, Dingwall.`,
     ],
   },
 
-
-
 {
     id: 22,
     date: "16/12/23",
-    text: 
-"On second thoughts…",
-
+    text: "On second thoughts…",
     image: deek7,
     alt: "Derek Adams closes his eyes and makes a decision.",
            options: [
@@ -494,7 +490,6 @@ The game will be played at Victoria Park, Dingwall.`,
           },
     ],
   },
-
 
 {
     id: 23,
@@ -607,11 +602,11 @@ The game will be played at Tynecastle, Edinburgh.`,
            options: [
       {
         text: "Continue rescuing the Princess from the evil .",
-        nextText: 29
+        nextText: 27
       },
       {
         text: "Continue eating turkey, your favourite meat.",
-        nextText: 29
+        nextText: 27
       }
 
     ],
@@ -632,19 +627,15 @@ The game will be played at Tynecastle, Edinburgh.`,
       },
 {
         text: "Maybe chuck Eamonn Brophy on, you've basically won this.",
-        nextText: 32
+        nextText: 31
       }
-
-
     ],
   },
 
 {
     id: 30,
     date: "30/12/23",
-    text: 
-"Gorgie City Farm has closed.",
-
+    text: "Gorgie City Farm has closed.",
     image: gorgieCityFarm,
     alt: "Gorgie City Farm with a 'Regrettably we are closed' sign on the gate.",
            options: [
@@ -669,35 +660,53 @@ The game will be played at Tynecastle, Edinburgh.`,
                   options: [
       {
         text: "Warn the players that you'll be seeking reinforcements in the transfer window.",
-        nextText: 101
+        nextText: 32
       },
       {
         text: "Talk about how great that game was in an optimistic bid to walk back that whole “Scottish football is shite” thing.",
-        nextText: 33
+        nextText: 34
       }
     ],
   },
-{
+  {
     id: 32,
-    date: "30/12/23",
-    text: 
-"You have drawn 2-2 with Hearts.",
+    date: "01/01/24",
+    text: "Do you want to buy a player?",
 
-    image: buckled,
-    alt: "Collapsing on the floor, as if giving up",
+    image: scouting,
+    alt: "Coaches and scouts assessing a player.",
            options: [
       {
-        text: "Warn the players that you'll be seeking reinforcements in the transfer window.",
-        nextText: 101
+        text: "Yes",
+        nextText: 33
+      },
+    {
+        text: "Actually no.",
+        nextText: 34
+      },
+    ],
+  },
+
+  {
+    id: 33,
+    date: "01/01/24",
+    text: 
+`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+    image: playerSigned,
+    alt: "A player signing a contract",
+           options: [
+      {
+        text: "Yes",
+        nextText: 32
       },
       {
-      text: "Talk about how great that game was in an optimistic bid to walk back that whole “Scottish football is shite” thing.",
-      nextText: 33
+        text: "No.",
+        nextText: 34
       },
-      ],
+    ],
   },
 {
-    id: 33,
+    id: 34,
     date: "02/01/24",
     text: 
 `You are about to play Aberdeen.
@@ -711,7 +720,7 @@ You remain optimistic about your chances following the Hearts match.`,
            options: [
       {
         text: "Tell the players that if they carry on their performance from the last match, you'll do well here.",
-        nextText: 34
+        nextText: 35
       },
       {
         text: "Tell the players in no uncertain terms they must defend better in this match.",
@@ -720,64 +729,120 @@ You remain optimistic about your chances following the Hearts match.`,
     ],
   },
 {
-    id: 33,
-    date: "02/01/24",
-    text: 
-"Aberdeen gub you 3-0.",
-
-    image: happyNewYear,
-    alt: "Happy New Year from everyone at Aberdeen Football Club",
-           options: [
-      {
-        text: "Right. We're going to have to get some new players.",
-        nextText: 102
-      },
-      {
-        text: "Ah well, nevertheless.",
-        nextText: 36
-      }
-    ],
-  },
-{
     id: 35,
     date: "02/01/24",
-    text: 
-    "Aberdeen gub you 3-0.",
-
+    text: "Aberdeen gub you 3-0.",
     image: happyNewYear,
     alt: "Happy New Year from everyone at Aberdeen Football Club",
            options: [
       {
         text: "Right. We're going to have to get some new players.",
-        nextText: 102
+        nextText: 36
       },
       {
         text: "Ah well, nevertheless.",
-        nextText: 36
+        nextText: 38
       }
     ],
   },
-{
+  {
     id: 36,
-    date: "05/01/24",
+    date: "03/01/24",
+    text:  "Do you definitely want to buy a player?",
+    image: buyHim,
+    alt: "Derek Adams pointing at the player he wants.",
+           options: [
+      {
+text: "Yes",
+        nextText: 37
+      },
+      {
+text: "Actually no.",
+        nextText: 38
+      },
+    ],
+  },
+{
+    id: 37,
+    date: "03/01/24",
     text: 
-"You are now on a mid-season break, returning to action against Partick Thistle in the Scottish Cup on the 20th.",
+`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
 
+    image: scarfAloft,
+    alt: "A blurred image of a new signing, Ross County scarf aloft",
+           options: [
+{
+text: "Yes",
+        nextText: 36
+      },
+{
+text: "No.",
+        nextText: 38
+      },
+
+    ],
+  },
+
+{
+    id: 38,
+    date: "05/01/24",
+    text: "You are now on a mid-season break, returning to action against Partick Thistle in the Scottish Cup on the 20th.",
     image: kingsley,
     alt: "Kingsley, the Partick Thistle mascot.",
            options: [
       {
         text: "Right. We're going to have to get some new players.",
-        nextText: 102
+        nextText: 39
       },
       {
     text: "Continue eating turkey, your favourite meat.",
-        nextText: 37
+        nextText: 41
       }
     ],
   },
+  {
+    id: 39,
+date: "06/01/24",
+    text: 
+"You're sure you want to buy a player?",
+
+image: scouting,
+alt: "Coaches and scouts assessing a player.",
+           options: [
 {
-    id: 37,
+text: "Yes",
+        nextText: 40
+      },
+{
+text: "Actually no.",
+        nextText: 41
+      },
+
+    ],
+  },
+
+{
+    id: 40,
+date: "06/01/24",
+    text: 
+`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+
+image: playerSigned,
+alt: "A player signing a contract",
+           options: [
+{
+text: "Yes",
+        nextText: 39
+      },
+{
+text: "No.",
+        nextText: 41
+      },
+
+    ],
+  },
+{
+    id: 41,
     date: "20/01/24",
     text: 
 `You are about to play Partick Thistle.
@@ -791,16 +856,16 @@ You are optimistic following last season"s play-off triumph.`,
            options: [
       {
         text: "Come on lads, a cup run will give us a cause for optimism.",
-        nextText: 38
+        nextText: 42
       },
       {
         text: "Let's tear into this shite. They're not even from Partick, so their positioning is bound to be bad.",
-        nextText: 39
+        nextText: 43
       }
     ],
   },
 {
-    id: 38,
+    id: 42,
     date: "20/01/24",
     text: 
 "You have lost 3-0 at home to Partick Thistle.",
@@ -810,35 +875,76 @@ You are optimistic following last season"s play-off triumph.`,
            options: [
       {
         text: "Right. We're going to have to get some new players.",
-        nextText: 103
+        nextText: 44
       },
       {
         text: "For fucksake",
-        nextText: 40
+        nextText: 46
       }
     ],
   },
 {
-    id: 39,
+    id: 43,
     date: "20/01/24",
-    text: 
-"You have lost 12-0 at home to Partick Thistle.",
-
+    text: "You have lost 12-0 at home to Partick Thistle.",
     image: deek7,
     alt: "Derek Adams closes his eyes.",
            options: [
       {
         text: "Right. We're going to have to get some new players.",
-        nextText: 103
+        nextText: 44
       },
       {
         text: "For fucksake",
-        nextText: 40
+        nextText: 46
       }
     ],
   },
+
+  {
+    id: 44,
+date: "21/01/24",
+    text: 
+"Do you want to buy a player? For realsies?",
+
+    image: buyHim,
+    alt: "Derek Adams pointing at the player he wants.",
+           options: [
 {
-    id: 40,
+text: "Yes",
+        nextText: 45
+      },
+{
+text: "Actually no.",
+        nextText: 46
+      },
+
+    ],
+  },
+
+{
+    id: 45,
+date: "21/01/24",
+    text: 
+`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+
+image: scarfAloft,
+alt: "A blurred image of a new signing, Ross County scarf aloft",
+           options: [
+{
+text: "Yes",
+        nextText: 44
+      },
+{
+text: "No.",
+        nextText: 46
+      },
+
+    ],
+  },
+
+{
+    id: 46,
     date: "23/01/24",
     text: 
 "After losing at home to Partick Thistle the media are asking you if you're happy at Ross County.",
@@ -848,16 +954,16 @@ You are optimistic following last season"s play-off triumph.`,
            options: [
       {
         text: "I'm so happy. We're terribly in love.",
-        nextText: 41
+        nextText: 47
       },
       {
         text: "What is joy?",
-        nextText: 41
+        nextText: 47
       }
     ],
   },
 {
-    id: 41,
+    id: 47,
     date: "23/01/24",
     text: 
 "Derek, do you think you have what it takes to bounce back in the next game?",
@@ -867,16 +973,16 @@ You are optimistic following last season"s play-off triumph.`,
            options: [
       {
         text: "Oh aye, no bother.",
-        nextText: 43
+        nextText: 48
       },
       {
         text: "Maybe, yeah. Who are we playing again?",
-        nextText: 43
+        nextText: 48
       }  
  ],
   },
 {
-    id: 43,
+    id: 48,
     date: "26/01/24",
     text: 
 `You are playing Celtic tomorrow.
@@ -888,56 +994,93 @@ The game will take place at Celtic Park, Glasgow.`,
            options: [
       {
         text: "Right. We're going to have to get some new players.",
-        nextText: 103
+        nextText: 49
       },
       {
         text: "For fucksake",
-        nextText: 44
+        nextText: 51
       }
     ],
   },
-{
-    id: 44,
-    date: "27/01/24",
+  {
+    id: 49,
+date: "26/01/24",
     text: 
-"You are about to play Celtic.",
+"So, you want to buy a player?",
 
+image: capSoMeme,
+alt: "Captain America 'So...' meme image",
+           options: [
+{
+text: "Yes",
+        nextText: 50
+      },
+{
+text: "Actually no.",
+        nextText: 41
+      },
+
+    ],
+  },
+
+{
+    id: 50,
+date: "26/01/24",
+    text: 
+`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+
+image: playerSigned,
+alt: "A player signing a contract",
+           options: [
+{
+text: "Yes",
+        nextText: 49
+      },
+{
+text: "No.",
+        nextText: 51
+      },
+
+    ],
+  },
+{
+    id: 51,
+    date: "27/01/24",
+    text: "You are about to play Celtic. What do you say to motivate your players?",
     image: ruPaul,
     alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
       {
         text: "Let's just get this over with.",
-        nextText: 45
+        nextText: 52
       },
       {
         text: `...There's a man I meet, walks up our street
-        He's a worker for the council
-        Has been twenty years.`,
-        nextText: 45
+              He's a worker for the council
+              Has been twenty years.`,
+        nextText: 52
       }
     ],
   },
 {
-    id: 45,
+    id: 52,
     date: "27/01/24",
-    text: 
-"You have lost 1-0 to Celtic.",
-
+    text: "You have lost 1-0 to Celtic.",
     image: meh,
     alt: "RuPaul saying 'Meh'.",
            options: [
             {
         text: "Could have been worse.",
-        nextText: 46
+        nextText: 53
             },
             {
         text: "Ask Brendan Rodgers for management advice.",
-        nextText: 46
+        nextText: 53
             }
     ],
   },
 {
-    id: 46,
+    id: 53,
     date: "29/01/24",
     text: 
 `You are about to play Livingston tomorrow.
@@ -953,16 +1096,57 @@ Livingstone have been dogshit all season.`,
            options: [
           {
         text: "Come on lads, if you put the same effort you put into the Celtic match you'll win here.",
-        nextText: 47
+        nextText: 56
           },
           {
         text: "Maybe I should just sign one more player, just in case.",
-        nextText: 104
+        nextText: 54
       },
     ],
   },
+  {
+    id: 54,
+date: "29/01/24",
+    text: 
+"Do you definitely want to buy a player?",
+
+    image: buyHim,
+    alt: "Derek Adams pointing at the player he wants.",
+           options: [
 {
-    id: 47,
+text: "Yes",
+        nextText: 55
+      },
+{
+text: "Actually no.",
+        nextText: 56
+      },
+
+    ],
+  },
+
+{
+    id: 55,
+date: "29/01/24",
+    text: 
+`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+
+image: scarfAloft,
+alt: "A blurred image of a new signing, Ross County scarf aloft",
+           options: [
+{
+text: "Yes",
+        nextText: 54
+      },
+{
+text: "No.",
+        nextText: 56
+      },
+
+    ],
+  },
+{
+    id: 56,
     date: "30/01/24",
     text: 
 "You are 1-0 up against Livingston with a minute to go before half-time.",
@@ -972,16 +1156,16 @@ alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
       {
         text: "I've got a good feeling about this.",
-        nextText: 48
+        nextText: 57
       },
       {
         text: "I've got a bad feeling about this.",
-        nextText: 48
+        nextText: 57
       },
     ],
   },
 {
-    id: 48,
+    id: 57,
     date: "30/01/24",
     text: "Livingston equalise before half time.",
 
@@ -990,16 +1174,16 @@ alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
         {
         text: "Go out and win the second half.",
-        nextText: 49
+        nextText: 58
         },
         {
         text: "I've brought in motivational speaker Gordon Ramsay.",
-        nextText: 49
+        nextText: 58
       },
     ],
   },
 {
-    id: 49,
+    id: 58,
     date: "30/01/24",
     text: 
 "You are 2-1 up against Livingston with five minutes to go.",
@@ -1009,16 +1193,16 @@ alt: "RuPaul saying 'And don't fuck it up'.",
     options: [
       {
         text: "I've got a good feeling about this.",
-        nextText: 50
+        nextText: 59
       },
       {
         text: "I've got a bad feeling about this.",
-        nextText: 50
+        nextText: 59
       },
     ],
   },
 {
-    id: 50,
+    id: 59,
     date: "30/01/24",
     text: 
 "You have drawn 2-2 with Livingston.",
@@ -1028,54 +1212,87 @@ alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
       {
         text: "Okay, we have a problem seeing out games. Time to go into the transfer market.",
-        nextText: 105
+        nextText: 60
       },
       {
-        text: "You're a useless prick Ramsay.",
-        nextText: 51
+        text: "Yell 'You're a useless prick' at guest motivation speaker Gordon Ramsay.",
+        nextText: 62
       },
     ],
   },
+  {
+    id: 60,
+    date: "31/01/24",
+    text: "Do you want to buy a player?",
+    image: redknapp,
+    alt: "Harry Redknapp in his car on transfer deadline day.",
+           options: [
 {
-    id: 51,
-    date: "30/01/24",
-    text: 
-"You are fighting Gordon Ramsay.",
+text: "Yes",
+        nextText: 61
+      },
+{
+text: "Actually no.",
+        nextText: 65
+      },
 
+    ],
+  },
+
+{
+    id: 61,
+    date: "31/01/24",
+    text: `You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
+    image: playerSigned,
+    alt: "A player signing a contract",
+           options: [
+{
+text: "Yes.",
+        nextText: 60
+      },
+{
+text: "No.",
+        nextText: 65
+      },
+
+    ],
+  },
+{
+    id: 62,
+    date: "30/01/24",
+    text: "You are fighting Gordon Ramsay.",
     image: fisticuffs,
     alt: "Painting by Giulio del Torre: 'Zwei raufende Buben' (Two Scuffling Boys) 1927.",
            options: [
       {
         text: "Knee him in the bollocks",
-        nextText: 52
+        nextText: 63
       },
       {
         text: "Pull his hair.",
-        nextText: 53
+        nextText: 64
       },
     ],
   },
 {
-    id: 52,
+    id: 63,
     date: "30/01/24",
-    text: 
-"You knee Gordon Ramsay in the bollocks. He goes down like Martin Boyle.",
-
+    text: "You knee Gordon Ramsay in the bollocks. He goes down like Martin Boyle.",
     image: kneeInBalls,
     alt: "A knee to the balls.",
            options: [
       {
         text: "You roar 'That's what we're gonna do to St Johnstone.'",
-        nextText: 54
+        nextText: 66
       },
       {
         text: "The team look up at you. You think you detect a newfound respect in their eyes. You wordlessly rip Ramsay's throat out like Swayze in Road House, and march out of the room.",
-        nextText: 55
+        nextText: 65
       },
     ],
   },
 {
-    id: 53,
+    id: 64,
     date: "30/01/24",
     text: 
 "You pull Gordon Ramsay's hair and he screams a feral scream, digging his nails into your wrists. By the time the fight is done you're both in bloody rags, panting in the changing room. Everyone has gone home apart from you and Ramsay. You agree to call it a draw, but at the back of your mind your subconscious tells you 'Draws are no good at this time of the season'.",
@@ -1085,17 +1302,37 @@ alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
       {
         text: "Consider Heston Blumenthal for the next team talk.",
-        nextText: 54
+        nextText: 66
       },
       {
         text: "Give in to your urges.",
-        nextText: 55
+        nextText: 65
       },
 
     ],
   },
+  {
+    id: 65,
+    date: "03/02/24",
+    text: 
+`You are about to play St Johnstone, who are one place above you in the table. 
+
+The game is at Victoria Park, Dingwall.`,
+    image: victoriaPark,
+    alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
+           options: [
 {
-    id: 54,
+        text: "Come on lads, their defence is about 103 years old. Let's do this.",
+        nextText: 66
+      },
+{
+        text: "Come on lads, their only good striker is basically dead. Let's do this.",
+        nextText: 66
+      },
+    ]
+  },
+{
+    id: 66,
     date: "03/02/24",
     text: 
 `You lose 1-0 to St Johnstone.
@@ -1107,17 +1344,34 @@ It is their first away win of the season.`,
            options: [
 {
         text: "Punch a wall",
-        nextText: 56
+        nextText: 68
       },
 {
         text: "Dip into the transfer market",
-        nextText: 106
+        nextText: 67
       },
-
+    ]
+  },
+  {
+    id: 67,
+    date: "03/02/24",
+    text: "The transfer window is closed, you idiot.",
+    image: windowClosed,
+    alt: "The Transfer Window has closed.",
+            options: [
+{
+text: "You kick the wall.",
+        nextText: 68
+      },
+      {
+        text: "You tell the wall you'll get it next time.",
+                nextText: 69
+      },
     ],
   },
+
 {
-    id: 56,
+    id: 68,
     date: "04/02/24",
     text: 
 "The janny gives you a right nagging for damaging the plaster in the changing rooms.",
@@ -1127,58 +1381,34 @@ It is their first away win of the season.`,
            options: [
 {
         text: "Meekly apologise.",
-        nextText: 57
+        nextText: 69
       },
 {
         text: "Fight the janny",
-        nextText: 58
+        nextText: 70
       },
 
     ],
   },
 {
-    id: 57,
+    id: 69,
     date: "04/02/2",
-    text: 
-"The janny tells you that you'd better not fuck it up against Motherwell.",
-
+    text: "The janny tells you that you'd better not fuck it up against Motherwell.",
     image: ruPaul,
     alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
 {
         text: "You confidently state that you absolutely will not fuck it up against Motherwell.",
-        nextText: 59
+        nextText: 71
       },
 {
         text: "You say you'll do your best.",
-        nextText: 60
+        nextText: 72
       },
-
     ],
   },
 {
-    id: 57.1,
-    date: "04/02/24",
-    text: 
-"The janny tells you that you'd better not fuck it up against Motherwell.",
-
-    image: ruPaul,
-    alt: "RuPaul saying 'And don't fuck it up'.",
-           options: [
-{
-        text: "You confidently state that you absolutely will not fuck it up against Motherwell.",
-        nextText: 59
-      },
-{
-        text: "You say you'll 'fuck shit up against Motherwell, yeah? Yeah.'",
-        nextText: 60
-      },
-
-    ],
-  },
-
-{
-    id: 58,
+    id: 70,
     date: "04/02/24",
     text: 
 "The janny bests you in a medieval joust. You curse yourself for allowing him to pick the format of your battle.",
@@ -1188,57 +1418,53 @@ It is their first away win of the season.`,
            options: [
 {
     text: "Buy a 4-pack of Aldi-brand Deep Heat and suck it up.",
-    nextText: 57
+    nextText: 69
       },
 {
     text: "Apologise to the groundsperson for all the hoofprints on the pitch.",  
-    nextText: 57.1
+    nextText: 69
       },
-
     ],
   },
 {
-    id: 59,
+    id: 71,
     date: "06/02/24",
-    text: 
-"You have lost 5-0 against Motherwell.",
-
+    text: "You have lost 5-0 against Motherwell.",
     image: deek7,
     alt: "Derek Adams closes his eyes and makes a decision.",
            options: [
 {
         text: "As each player enters the dressing room, you ring a bell at them and intone SHAME",
-        nextText: 61
+        nextText: 73
       },
 {
         text: "You decide to have a word with the Chairman",
-        nextText: 63
+        nextText: 75
       },
 
     ],
   },
 {
-    id: 60,
+    id: 72,
     date: "06/02/24",
-    text: 
-"You have lost 15-0 to Motherwell.",
+    text: "You have lost 15-0 to Motherwell.",
     image: bestBoss,
     alt: "Blurred image of Steve Carrell in 'The Office' holding mug reading 'World's best boss'.",
 
            options: [
 {
         text: "You tell the team that you are going to find their mums and tell them what a disappointment they are.",
-        nextText: 62
+        nextText: 74
       },
 {
         text: "You decide to go to speak to the Chairman.",
-        nextText: 63
+        nextText: 75
       },
 
     ],
   },
 {
-    id: 61,
+    id: 73,
     date: "06/02/24",
     text: 
 "The players grab the bell off you and point to the end of it and say 'That's you that is'. The chairman comes in to see what all the noise is about. You are immediately fired.",
@@ -1258,7 +1484,7 @@ It is their first away win of the season.`,
     ],
   },
 {
-    id: 62,
+    id: 74,
     date: "06/02/24",
     text: 
 "The players' mums hear about your behaviour, and surround you in the car park. They take hold of your limbs and pull, like that bit with the horses in the film Black Death. You are saved at the last minute by the chairman riding in on a horse, fending them off with a sabre. As he grabs you from the melee and pulls you onto his horseback, he hands you your P45.",
@@ -1278,11 +1504,9 @@ It is their first away win of the season.`,
       ],
   },
 {
-    id: 63,
+    id: 75,
     date: "07/02/24",
-    text: 
-"Everyone hates you. You go to the Chairman and offer him your resignation.",
-
+    text: "Everyone hates you. You go to the Chairman and offer him your resignation.",
     image: buckled,
     alt: "Collapsing on the floor, as if giving up",
     options: [
@@ -1295,236 +1519,6 @@ It is their first away win of the season.`,
         nextText: 1
                     }
           ],
-  },
-
-{
-    id: 101,
-    date: "01/01/24",
-    text: 
-"Do you want to buy a player?",
-
-    image: scouting,
-    alt: "Coaches and scouts assessing a player.",
-           options: [
-{
-text: "Yes",
-        nextText: 101.1
-      },
-{
-text: "Actually no.",
-        nextText: 33
-      },
-
-    ],
-  },
-
-{
-    id: 101.1,
-date: "01/01/24",
-    text: 
-`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
-
-image: playerSigned,
-alt: "A player signing a contract",
-           options: [
-{
-text: "Yes",
-        nextText: 101.1
-      },
-{
-text: "No.",
-        nextText: 33
-      },
-
-    ],
-  },
-
-
-{
-    id: 102,
-date: "06/01/24",
-    text: 
-"Do you want to buy a player?",
-
-image: buyHim,
-alt: "Derek Adams pointing at the player he wants.",
-           options: [
-{
-text: "Yes",
-        nextText: 101.1
-      },
-{
-text: "Actually no.",
-        nextText: 37
-      },
-
-    ],
-  },
-
-{
-    id: 102.2,
-date: "06/01/24",
-    text: 
-`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
-
-image: scarfAloft,
-alt: "A blurred image of a new signing, Ross County scarf aloft",
-           options: [
-{
-text: "Yes",
-        nextText: 102.2
-      },
-{
-text: "No.",
-        nextText: 37
-      },
-
-    ],
-  },
-
-{
-    id: 103,
-date: "26/01/24",
-    text: 
-"Do you want to buy a player?",
-
-image: scouting,
-alt: "Coaches and scouts assessing a player.",
-           options: [
-{
-text: "Yes",
-        nextText: 101.1
-      },
-{
-text: "Actually no.",
-        nextText: 44
-      },
-
-    ],
-  },
-
-{
-    id: 103.3,
-date: "26/01/24",
-    text: 
-`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
-
-image: playerSigned,
-alt: "A player signing a contract",
-           options: [
-{
-text: "Yes",
-        nextText: 103.3
-      },
-{
-text: "No.",
-        nextText: 44
-      },
-
-    ],
-  },
-
-{
-    id: 104,
-date: "29/01/24",
-    text: 
-"Do you want to buy a player?",
-
-    image: buyHim,
-    alt: "Derek Adams pointing at the player he wants.",
-           options: [
-{
-text: "Yes",
-        nextText: 104.4
-      },
-{
-text: "Actually no.",
-        nextText: 47
-      },
-
-    ],
-  },
-
-{
-    id: 104.4,
-date: "29/01/24",
-    text: 
-`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
-
-image: scarfAloft,
-alt: "A blurred image of a new signing, Ross County scarf aloft",
-           options: [
-{
-text: "Yes",
-        nextText: 104.4
-      },
-{
-text: "No.",
-        nextText: 47
-      },
-
-    ],
-  },
-
-{
-    id: 105,
-date: "31/01/24",
-    text: 
-"Do you want to buy a player?",
-
-    image: redknapp,
-    alt: "Harry Redknapp in his car on transfer deadline day.",
-           options: [
-{
-text: "Yes",
-        nextText: 105.5
-      },
-{
-text: "Actually no.",
-        nextText: 54
-      },
-
-    ],
-  },
-
-{
-    id: 105.5,
-date: "29/01/24",
-    text: 
-`You have loaned $firstname $surname, a $position. Do you want to buy another player?`,
-
-    image: playerSigned,
-    alt: "A player signing a contract",
-           options: [
-{
-text: "Yes",
-        nextText: 105.5
-      },
-{
-text: "No.",
-        nextText: 54
-      },
-
-    ],
-  },
-{
-    id: 106,
-    date: "03/02/24",
-    text: 
-"The transfer window is closed, you idiot.",
-
-    image: windowClosed,
-    alt: "The Transfer Window has closed.",
-           options: [
-{
-text: "You kick the wall.",
-        nextText: 56
-      },
-      {
-        text: "You tell the wall you'll get it next time.",
-                nextText: 56
-      },
-    ],
   },
 ];
 

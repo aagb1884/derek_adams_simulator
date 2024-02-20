@@ -16,6 +16,7 @@ function GameScreen() {
         
         <MainComponent
           key={text.id}
+          date={text.date}
           text={text.text}
           btnLeft={text.options[0].text}
           btnRight={text.options[1].text}
