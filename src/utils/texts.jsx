@@ -70,11 +70,11 @@ This will be your 3rd time managing Ross County.`,
     alt: "Distorted image of Derek Adams holding a Ross County scarf above his head.",
     options: [
       {
-        text: "Let's get cracking.",
+        text: "Let's get cracking",
         nextText: 2,
       },
       {
-        text: "Bring it on.",
+        text: "Bring it on",
         nextText: 2,
       },
    ]
@@ -94,7 +94,7 @@ The game is at Victoria Park, Dingwall.`,
         nextText: 3,
       },
       {
-        text: "Just do what Malky did.",
+        text: "Just do what Malky did",
         nextText: 3,
       },
     ]
@@ -107,7 +107,7 @@ The game is at Victoria Park, Dingwall.`,
     alt: "Derek Adams biting his lip.",
     options: [
       {
-        text: "Oh well.",
+        text: "Oh well",
         nextText: 4,
       },
       {
@@ -129,7 +129,7 @@ You remain optimistic about your chances following the Kilmarnock match.`,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
     options: [
       {
-        text: "Same team as last time.",
+        text: "Same team as last time",
         nextText: 6,
       },
       {
@@ -174,7 +174,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
         nextText: 9,
       },
       {
-        text: "Could have been better though.",
+        text: "Could have been better though",
         nextText: 10,
       },
     ],
@@ -212,7 +212,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
         nextText: 9,
       },
       {
-        text: "Hmmm. That's fine I guess.",
+        text: "Hmmm. That's fine I guess",
         nextText: 10,
       },
     ],
@@ -246,11 +246,11 @@ You have bollocked the players for not winning the Kilmarnock match.`,
     alt: "People jumping for joy against the backdrop of a colourful sunset",
      options: [
       {
-        text: "Right, let's go again then.",
+        text: "Right, let's go again then",
         nextText: 11,
       },
       {
-        text: "Good because I'm no here to make friends.",
+        text: "Good because I'm no here to make friends",
         nextText: 11,
       }
     ],
@@ -269,7 +269,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
         nextText: 12,
       },
       {
-        text: "Don't give a shite mate.",
+        text: "Don't give a shite mate",
         nextText: 13,
       },
     ],
@@ -303,11 +303,11 @@ You have bollocked the players for not winning the Kilmarnock match.`,
     alt: "Three vague shapes discuss the latest SPFL action.",
       options: [
       {
-        text: "You do not care. If anything you find the praise of these formless blobs patronising.",
+        text: "You do not care. If anything you find the praise of these formless blobs patronising",
         nextText: 14,
       },
       {
-        text: "That's nice but your focus is entirely on the next match.",
+        text: "That's nice but your focus is entirely on the next match",
         nextText: 14,
       }
     ],
@@ -322,11 +322,11 @@ You have bollocked the players for not winning the Kilmarnock match.`,
     alt: "A very chipper Derek Adams.",
            options: [
       {
-        text: "Yes lads, we thrashed them like an old fashioned school teacher with unprocessed trauma from one of the two major wars of the 20th century would thrash a mildly cheeky schoolboy.",
+        text: "Yes lads, we thrashed them like an old fashioned school teacher with unprocessed trauma from one of the two major wars of the 20th century would thrash a mildly cheeky schoolboy",
         nextText: 15,
       },
       {
-        text: "Lovely stuff, don't get complacent though.",
+        text: "Lovely stuff, don't get complacent though",
         nextText: 16,
       },
     ],
@@ -347,7 +347,7 @@ The game will be played at The Buddies Park, Paisley.`,
         nextText: 17,
       },
       {
-        text: "We're on a roll, let's show them what we do.",
+        text: "We're on a roll, let's show them what we do",
         nextText: 19,
       },
     ],
@@ -364,11 +364,11 @@ The game is at The Buddies Park, Paisley.`,
     alt: "The Buddies Park (aka The SMISA Stadium), Paisley.",
            options: [
       {
-        text: "Treat this like a new game. A new game of football. Not like a brand new game, like you sometimes get on The Crystal Maze.",
+        text: "Treat this like a new game. A new game of football. Not like a brand new game, like you sometimes get on The Crystal Maze",
         nextText: 18,
       },
       {
-        text: "Let's keep it tight at the back, we know we can frustrate them.",
+        text: "Let's keep it tight at the back, we know we can frustrate them",
         nextText: 19,
       },
     ],
@@ -386,11 +386,11 @@ image: deek6,
 alt: "Derek Adams giving an interview",
            options: [
       {
-        text: "Nayhaps I was unwise to fire the lads up so much. It was like Pompeii out there, underwhelming and featuring Kit Harington.",
+        text: "Nayhaps I was unwise to fire the lads up so much. It was like Pompeii out there, underwhelming and featuring Kit Harington",
         nextText: 20,
       },
       {
-        text: "well we're going to have to do a lot better against Dundee.",
+        text: "Well we're going to have to do a lot better against Dundee",
         nextText: 21,
       },
     ],
@@ -408,11 +408,11 @@ Manager Derek Adams is asked for his opinion on the match.`,
     alt: "Derek Adams giving an interview",
            options: [
       {
-        text: "Have you seen the new Crystal Maze? I don't know, I just find Richard Ayaode a bit much.",
+        text: "Have you seen the new Crystal Maze? I don't know, I just find Richard Ayaode a bit much",
         nextText: 20,
       },
       {
-       text: "well we're going to have to do a lot better against Dundee.",
+       text: "Well we're going to have to do a lot better against Dundee",
         nextText: 21,
       },
     ],
@@ -429,11 +429,11 @@ Manager Derek Adams is asked for his opinion on the match.`,
       alt: "Derek Adams giving an interview",
           options: [
       {
-        text: "Treat this like a new game. A new game of football. Not like a brand new game, like you sometimes get on The Crystal Maze.",
+        text: "Treat this like a new game. A new game of football. Not like a brand new game, like you sometimes get on The Crystal Maze",
         nextText: 20,
       },
       {
-          text: "well we're going to have to do a lot better against Dundee.",
+          text: "Well we're going to have to do a lot better against Dundee",
         nextText: 21,
       },
     ],
@@ -451,11 +451,11 @@ The game will be played at Victoria Park, Dingwall.`,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
            options: [
       {
-        text: "Look you were unlucky in the last game. We just need to put the ball in the net.",
+        text: "Look you were unlucky in the last game. We just need to put the ball in the net",
         nextText: 21,
       },
       {
-          text: "home advantage should see us vanquish these jute-eating surrender monkeys.",
+          text: "Home advantage should see us vanquish these jute-eating surrender monkeys",
         nextText: 21,
       },
     ],
@@ -471,11 +471,11 @@ The game will be played at Victoria Park, Dingwall.`,
     alt: "Derek Adams closes his eyes and makes a decision.",
            options: [
       {
-        text: "Remind the players that you've been creating chances and if they keep playing like this they'll be okay, they were just unlucky tonight.",
+        text: "Remind the players that you've been creating chances and if they keep playing like this they'll be okay, they were just unlucky tonight",
         nextText: 22
       },
       {
-          text: "announce that Scottish football is so bad you'd rather wear a suit where a pipe connected your mouth and anus at all times. Sky would be better off buying the rights to an international de-gloving tournament. Watching Scottish football makes you feel like joining a death cult.  You'd rather watch reruns of 9/11. To cheer yourself up you're going home to sit in the dark and think about the last time you saw your dad.",
+          text: "Announce that Scottish football is so bad you'd rather wear a suit where a pipe connected your mouth and anus at all times. Sky would be better off buying the rights to an international de-gloving tournament. Watching Scottish football makes you feel like joining a death cult.  You'd rather watch reruns of 9/11. To cheer yourself up you're going home to sit in the dark and think about the last time you saw your dad",
         nextText: 23
       },
     ],
@@ -489,11 +489,11 @@ The game will be played at Victoria Park, Dingwall.`,
     alt: "Derek Adams closes his eyes and makes a decision.",
            options: [
             {
-                text: "announce that Scottish football is so bad you'd rather where a suit where a pipe connected your mouth and anus at all times. Sky would be better off buying the rights to an international de-gloving tournament. Watching Scottish football makes you feel like joining a death cult.  You'd rather watch reruns of 9/11. To cheer yourself up you're going home to sit in the dark and think about the last time you saw your dad.",
+                text: "Announce that Scottish football is so bad you'd rather where a suit where a pipe connected your mouth and anus at all times. Sky would be better off buying the rights to an international de-gloving tournament. Watching Scottish football makes you feel like joining a death cult.  You'd rather watch reruns of 9/11. To cheer yourself up you're going home to sit in the dark and think about the last time you saw your dad",
               nextText: 23
             },
             {
-              text: "Same but in a bad Spanish accent.",
+              text: "Same thing but in a bad Spanish accent",
             nextText: 23
           },
     ],
@@ -509,11 +509,11 @@ The game will be played at Victoria Park, Dingwall.`,
     alt: "Derek looks into the middle distance.",
            options: [
       {
-        text: "oh fine, it'll all blow over",
+        text: "Ach fine, it'll all blow over",
         nextText: 24
       },
       {
-        text: "don't back down, double down",
+        text: "Don't back down, double down",
         nextText: 24
       }
     ],
@@ -529,11 +529,11 @@ The game will be played at Victoria Park, Dingwall.`,
     alt: "A dial marked 'OOF SIZE' set to 'Large'.",
            options: [
       {
-        text: "Prepare a mid-block press with a quick release to your most creative player. Let's get them on the break. This is going to surprise people.",
+        text: "Prepare a mid-block press with a quick release to your most creative player. Let's get them on the break. This is going to surprise people",
         nextText: 25
       },
       {
-        text: "Update your list of enemies.",
+        text: "Update your list of enemies",
         nextText: 25
       }
     ],
@@ -549,11 +549,11 @@ The game will be played at Victoria Park, Dingwall.`,
     alt: "A wyvern, as seen in a 14th century Welsh manuscript.",
            options: [
       {
-        text: "Ah well, let's look forward to the next game.",
+        text: "Ah well, let's look forward to the next game",
         nextText: 26
       },
       {
-        text: "Always the bloody wyverns.",
+        text: "Always the bloody wyverns",
         nextText: 26
       }
     ],
@@ -569,11 +569,11 @@ The game will be played at Victoria Park, Dingwall.`,
     alt: "Ben Affleck looking sad.",
            options: [
       {
-        text: "right, well, we'll just call that a free hit I guess.",
+        text: "Right, well, we'll just call that a free hit I guess",
         nextText: 27
       },
       {
-        text: "nice, this gives me more time to play with my Christmas presents",
+        text: "Nice, this gives me more time to play with my Christmas presents",
         nextText: 28
       },
     ]},
@@ -589,11 +589,11 @@ The game will be played at Tynecastle, Edinburgh.`,
     alt: "Tynecastle, Edinburgh.",
            options: [
       {
-        text: "Oh nice, we can visit Gorgie City Farm.",
+        text: "Oh nice, we can visit Gorgie City Farm",
         nextText: 30
       },
       {
-        text: "okay, let's focus our energies on this game.",
+        text: "Okay, let's focus our energies on this game",
         nextText: 29
       },
     ]
@@ -609,11 +609,11 @@ The game will be played at Tynecastle, Edinburgh.`,
         alt: "Derek with his Christmas Presents.",
            options: [
       {
-        text: "Continue rescuing the Princess from the evil .",
+        text: "Continue rescuing the Princess from the evil",
         nextText: 27
       },
       {
-        text: "Continue eating turkey, your favourite meat.",
+        text: "Continue eating turkey, your favourite meat",
         nextText: 27
       }
 
@@ -630,11 +630,11 @@ The game will be played at Tynecastle, Edinburgh.`,
     alt: "Delicious turkey",
            options: [
       {
-        text: "Continue eating turkey, your favourite meat.",
+        text: "Continue eating turkey, your favourite meat",
         nextText: 31
       },
 {
-        text: "Maybe chuck Eamonn Brophy on, you've basically won this.",
+        text: "Maybe chuck Eamonn Brophy on, you've basically won this",
         nextText: 31
       }
     ],
@@ -648,11 +648,11 @@ The game will be played at Tynecastle, Edinburgh.`,
     alt: "Gorgie City Farm with a 'Regrettably we are closed' sign on the gate.",
            options: [
       {
-        text: "Tell yourself there will be another chance to feed a llama some pellets.",
+        text: "Tell yourself there will be another chance to feed a llama some pellets",
         nextText: 29
       },
       {
-        text: "Sit outside in a huff while your assistant does the first half.",
+        text: "Sit outside in a huff while your assistant does the first half",
         nextText: 29
       }
     ],
@@ -667,11 +667,11 @@ The game will be played at Tynecastle, Edinburgh.`,
     alt: "Collapsing on the floor, as if giving up",
                   options: [
       {
-        text: "Warn the players that you'll be seeking reinforcements in the transfer window.",
+        text: "Warn the players that you'll be seeking reinforcements in the transfer window",
         nextText: 32
       },
       {
-        text: "Talk about how great that game was in an optimistic bid to walk back that whole “Scottish football is shite” thing.",
+        text: "Talk about how great that game was in an optimistic bid to walk back that whole “Scottish football is shite” thing",
         nextText: 34
       }
     ],
@@ -689,7 +689,7 @@ The game will be played at Tynecastle, Edinburgh.`,
         nextText: 33
       },
     {
-        text: "Actually no.",
+        text: "Actually no",
         nextText: 34
       },
     ],
@@ -707,7 +707,7 @@ The game will be played at Tynecastle, Edinburgh.`,
         nextText: 35
       },
       {
-        text: "Ease him into the picture, don't rush things.",
+        text: "Ease him into the picture, don't rush things",
         nextText: 34
       },
     ],
@@ -726,11 +726,11 @@ You remain optimistic about your chances following the Hearts match.`,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
            options: [
       {
-        text: "Tell the players that if they carry on their performance from the last match, you'll do well here.",
+        text: "Tell the players that if they carry on their performance from the last match, you'll do well here",
         nextText: 35
       },
       {
-        text: "Tell the players in no uncertain terms they must defend better in this match.",
+        text: "Tell the players in no uncertain terms they must defend better in this match",
         nextText: 35
       }
     ],
@@ -743,11 +743,11 @@ You remain optimistic about your chances following the Hearts match.`,
     alt: "Happy New Year from everyone at Aberdeen Football Club",
            options: [
       {
-        text: "Right. We're going to have to get some new players.",
+        text: "Right. We're going to have to get some new players",
         nextText: 36
       },
       {
-        text: "Ah well, nevertheless.",
+        text: "Ah well, nevertheless",
         nextText: 38
       }
     ],
@@ -764,7 +764,7 @@ text: "Yes",
         nextText: 37
       },
       {
-text: "Actually no.",
+text: "Actually no",
         nextText: 38
       },
     ],
@@ -778,11 +778,11 @@ text: "Actually no.",
     alt: "A blurred image of a new signing, Ross County scarf aloft",
            options: [
 {
-text: "Mandatory Roshambo Nut-Kicking Tournament.",
+text: "Mandatory Roshambo Nut-Kicking Tournament",
         nextText: 38
       },
 {
-text: "Sensory deprivation tank for first 24 hours.",
+text: "Sensory deprivation tank for first 24 hours",
         nextText: 38
       },
 
@@ -797,11 +797,11 @@ text: "Sensory deprivation tank for first 24 hours.",
     alt: "Kingsley, the Partick Thistle mascot.",
            options: [
       {
-        text: "Right. We're going to have to get some new players.",
+        text: "Right. We're going to have to get some new players",
         nextText: 39
       },
       {
-    text: "Continue eating turkey, your favourite meat.",
+    text: "Continue eating turkey, your favourite meat",
         nextText: 41
       }
     ],
@@ -820,7 +820,7 @@ text: "Yes",
         nextText: 40
       },
 {
-text: "Actually no.",
+text: "Actually no",
         nextText: 41
       },
 
@@ -836,11 +836,11 @@ image: playerSigned,
 alt: "A player signing a contract",
            options: [
 {
-text: "Get him right out on the pitch immediately.",
+text: "Get him right out on the pitch immediately",
         nextText: 41
       },
 {
-text: "Wait until there's actually a match on to get him out on the pitch.",
+text: "Wait until there's actually a match on to get him out on the pitch",
         nextText: 41
       },
 
@@ -860,11 +860,11 @@ You are optimistic following last season's play-off triumph.`,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
            options: [
       {
-        text: "Come on lads, a cup run will give us a cause for optimism.",
+        text: "Come on lads, a cup run will give us a cause for optimism",
         nextText: 42
       },
       {
-        text: "Let's tear into this shite. They're not even from Partick, so their positioning is bound to be bad.",
+        text: "Let's tear into this shite. They're not even from Partick, so their positioning is bound to be bad",
         nextText: 43
       }
     ],
@@ -879,7 +879,7 @@ You are optimistic following last season's play-off triumph.`,
     alt: "Derek Adams biting his lip.",
            options: [
       {
-        text: "Right. We're going to have to get some new players.",
+        text: "Right. We're going to have to get some new players",
         nextText: 44
       },
       {
@@ -896,7 +896,7 @@ You are optimistic following last season's play-off triumph.`,
     alt: "Derek Adams closes his eyes.",
            options: [
       {
-        text: "Right. We're going to have to get some new players.",
+        text: "Right. We're going to have to get some new players",
         nextText: 44
       },
       {
@@ -920,7 +920,7 @@ text: "Yes",
         nextText: 45
       },
 {
-text: "Actually no.",
+text: "Actually no",
         nextText: 46
       },
 
@@ -936,11 +936,11 @@ image: scarfAloft,
 alt: "A blurred image of a new signing, Ross County scarf aloft",
            options: [
 {
-text: "Yep.",
+text: "Yep",
         nextText: 46
       },
 {
-text: "You feel a brief twinge of hope.",
+text: "You feel a brief twinge of hope",
         nextText: 46
       },
 
@@ -957,7 +957,7 @@ text: "You feel a brief twinge of hope.",
     alt: "GOB Bluth from Arrested Development acknowledging that he's made a huge mistake.",
            options: [
       {
-        text: "I'm so happy. We're terribly in love.",
+        text: "I'm so happy. We're terribly in love",
         nextText: 47
       },
       {
@@ -976,7 +976,7 @@ text: "You feel a brief twinge of hope.",
     alt: "Monochrome image of a relatively happy Derek Adams",
            options: [
       {
-        text: "Oh aye, no bother.",
+        text: "Oh aye, no bother",
         nextText: 48
       },
       {
@@ -997,7 +997,7 @@ The game will take place at Celtic Park, Glasgow.`,
     alt: "Celtic Park, Glasgow",
            options: [
       {
-        text: "Right. We're going to have to get some new players.",
+        text: "Right. We're going to have to get some new players",
         nextText: 49
       },
       {
@@ -1020,7 +1020,7 @@ text: "Yes",
         nextText: 50
       },
 {
-text: "Actually no.",
+text: "Actually no",
         nextText: 41
       },
 
@@ -1040,7 +1040,7 @@ text: "Yeah",
         nextText: 51
       },
 {
-text: "Do you know what I miss? 'Space Precinct'. Now that was television.",
+text: "Do you know what I miss? 'Space Precinct'. Now that was television",
         nextText: 51
       },
 
@@ -1054,13 +1054,13 @@ text: "Do you know what I miss? 'Space Precinct'. Now that was television.",
     alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
       {
-        text: "Let's just get this over with.",
+        text: "Let's just get this over with",
         nextText: 52
       },
       {
-        text: `...There's a man I meet, walks up our street
+        text: `There's a man I meet, walks up our street
               He's a worker for the council
-              Has been twenty years.`,
+              Has been twenty years...`,
         nextText: 52
       }
     ],
@@ -1073,11 +1073,11 @@ text: "Do you know what I miss? 'Space Precinct'. Now that was television.",
     alt: "RuPaul saying 'Meh'.",
            options: [
             {
-        text: "Could have been worse.",
+        text: "Could have been worse",
         nextText: 53
             },
             {
-        text: "Ask Brendan Rodgers for management advice.",
+        text: "Ask Brendan Rodgers for management advice",
         nextText: 53
             }
     ],
@@ -1098,11 +1098,11 @@ Livingston have been dogshit all season.`,
     alt: "The Tony Macaroni Arena (aka Almondvale Stadium), Livingston.",
            options: [
           {
-        text: "Come on lads, if you put the same effort you put into the Celtic match you'll win here.",
+        text: "Come on lads, if you put the same effort you put into the Celtic match you'll win here",
         nextText: 56
           },
           {
-        text: "Maybe I should just sign one more player, just in case.",
+        text: "Maybe I should just sign one more player, just in case",
         nextText: 54
       },
     ],
@@ -1121,7 +1121,7 @@ text: "Yes",
         nextText: 55
       },
 {
-text: "Actually no.",
+text: "Actually no",
         nextText: 56
       },
 
@@ -1157,11 +1157,11 @@ image: ruPaul,
 alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
       {
-        text: "I've got a good feeling about this.",
+        text: "I've got a good feeling about this",
         nextText: 57
       },
       {
-        text: "I've got a bad feeling about this.",
+        text: "I've got a bad feeling about this",
         nextText: 57
       },
     ],
@@ -1175,11 +1175,11 @@ alt: "RuPaul saying 'And don't fuck it up'.",
     alt: "GOB Bluth from Arrested Development acknowledging that he's made a huge mistake.",
            options: [
         {
-        text: "Go out and win the second half.",
+        text: "Go out and win the second half",
         nextText: 58
         },
         {
-        text: "I've brought in motivational speaker Gordon Ramsay.",
+        text: "I've brought in motivational speaker Gordon Ramsay",
         nextText: 58
       },
     ],
@@ -1187,18 +1187,16 @@ alt: "RuPaul saying 'And don't fuck it up'.",
 {
     id: 58,
     date: "30/01/24",
-    text: 
-"You are 2-1 up against Livingston with five minutes to go.",
-
+    text: "You are 2-1 up against Livingston with five minutes to go.",
     image: ruPaul,
     alt: "RuPaul saying 'And don't fuck it up'.",
     options: [
       {
-        text: "I've got a good feeling about this.",
+        text: "I've got a good feeling about this",
         nextText: 59
       },
       {
-        text: "I've got a bad feeling about this.",
+        text: "I've got a bad feeling about this",
         nextText: 59
       },
     ],
@@ -1213,11 +1211,11 @@ alt: "RuPaul saying 'And don't fuck it up'.",
     alt: "Collapsing on the floor, as if giving up",
            options: [
       {
-        text: "Okay, we have a problem seeing out games. Time to go into the transfer market.",
+        text: "Okay, we have a problem seeing out games. Time to go into the transfer market",
         nextText: 60
       },
       {
-        text: "Yell 'You're a useless prick' at guest motivation speaker Gordon Ramsay.",
+        text: "Yell 'You're a useless prick' at guest motivation speaker Gordon Ramsay",
         nextText: 62
       },
     ],
@@ -1234,7 +1232,7 @@ text: "Yes",
         nextText: 61
       },
 {
-text: "Actually no.",
+text: "Actually no",
         nextText: 65
       },
 
@@ -1249,11 +1247,11 @@ text: "Actually no.",
     alt: "A player signing a contract",
            options: [
 {
-text: "Here we, here we, here we fucking go.",
+text: "Here we, here we, here we fucking go",
         nextText: 60
       },
 {
-text: "I should probably stop fingering my bones.",
+text: "I should probably stop fingering my bones",
         nextText: 65
       },
 
@@ -1271,7 +1269,7 @@ text: "I should probably stop fingering my bones.",
         nextText: 63
       },
       {
-        text: "Pull his hair.",
+        text: "Pull his hair",
         nextText: 64
       },
     ],
@@ -1284,11 +1282,11 @@ text: "I should probably stop fingering my bones.",
     alt: "A knee to the balls.",
            options: [
       {
-        text: "You roar 'That's what we're gonna do to St Johnstone.'",
+        text: "You roar 'That's what we're gonna do to St Johnstone'",
         nextText: 66
       },
       {
-        text: "The team look up at you. You think you detect a newfound respect in their eyes. You wordlessly rip Ramsay's throat out like Swayze in Road House, and march out of the room.",
+        text: "The team look up at you. You think you detect a newfound respect in their eyes. You wordlessly rip Ramsay's throat out like Swayze in Road House, and march out of the room",
         nextText: 65
       },
     ],
@@ -1303,11 +1301,11 @@ text: "I should probably stop fingering my bones.",
     alt: "An illustration from a mid-13th century Welsh manuscript.",
            options: [
       {
-        text: "Consider Heston Blumenthal for the next team talk.",
+        text: "Consider Heston Blumenthal for the next team talk",
         nextText: 66
       },
       {
-        text: "Give in to your urges.",
+        text: "Go home and watch 'Road House'",
         nextText: 65
       },
 
@@ -1324,11 +1322,11 @@ The game is at Victoria Park, Dingwall.`,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
            options: [
 {
-        text: "Come on lads, their defence is about 103 years old. Let's do this.",
+        text: "Come on lads, their defence is about 103 years old. Let's do this",
         nextText: 66
       },
 {
-        text: "Come on lads, their only good striker is basically dead. Let's do this.",
+        text: "Come on lads, their only good striker is basically dead. Let's do this",
         nextText: 66
       },
     ]
@@ -1362,11 +1360,11 @@ It is their first away win of the season.`,
     alt: "The Transfer Window has closed.",
             options: [
 {
-text: "You kick the wall.",
+text: "You kick the wall",
         nextText: 68
       },
       {
-        text: "You tell the wall you'll get it next time.",
+        text: "You tell the wall you'll get it next time",
                 nextText: 69
       },
     ],
@@ -1382,7 +1380,7 @@ text: "You kick the wall.",
     alt: "A man punching a hole in a wall.",
            options: [
 {
-        text: "Meekly apologise.",
+        text: "Meekly apologise",
         nextText: 69
       },
 {
@@ -1400,11 +1398,11 @@ text: "You kick the wall.",
     alt: "RuPaul saying 'And don't fuck it up'.",
            options: [
 {
-        text: "You confidently state that you absolutely will not fuck it up against Motherwell.",
+        text: "You confidently state that you absolutely will not fuck it up against Motherwell",
         nextText: 71
       },
 {
-        text: "You say you'll do your best.",
+        text: "You say you'll do your best",
         nextText: 72
       },
     ],
@@ -1419,11 +1417,11 @@ text: "You kick the wall.",
     alt: "16th Century German jousting",
            options: [
 {
-    text: "Buy a 4-pack of Aldi-brand Deep Heat and suck it up.",
+    text: "Buy a 4-pack of Aldi-brand Deep Heat and suck it up",
     nextText: 69
       },
 {
-    text: "Apologise to the groundsperson for all the hoofprints on the pitch.",  
+    text: "Apologise to the groundsperson for all the hoofprints on the pitch",  
     nextText: 69
       },
     ],
@@ -1455,11 +1453,11 @@ text: "You kick the wall.",
 
            options: [
 {
-        text: "You tell the team that you are going to find their mums and tell them what a disappointment they are.",
+        text: "You tell the team that you are going to find their mums and tell them what a disappointment they are",
         nextText: 74
       },
 {
-        text: "You decide to go to speak to the Chairman.",
+        text: "You decide to go to speak to the Chairman",
         nextText: 75
       },
 
@@ -1479,7 +1477,7 @@ text: "You kick the wall.",
         nextText: 1
       },
       {
-        text: "Tell people you have been fired as manager of Ross County Football Club, and go update your LinkedIn profile.",
+        text: "Ask Michael Beale and Lee Johnson if you can join their WhatsApp group",
         nextText: 1
               }
 
@@ -1495,11 +1493,11 @@ text: "You kick the wall.",
     alt: "A knee to the balls.",
     options: [
   {
-          text: "Tell people you have resigned as manager of Ross County Football Club, and go update your LinkedIn profile.",
+          text: "Tell people you have resigned as manager of Ross County Football Club, and go update your LinkedIn profile",
           nextText: 1
         },
         {
-          text: "Tell people you have been fired as manager of Ross County Football Club, and go update your LinkedIn profile.",
+          text: "Ask Michael Beale and Lee Johnson if you can join their WhatsApp group",
           nextText: 1
                 }
   
@@ -1513,11 +1511,11 @@ text: "You kick the wall.",
     alt: "Collapsing on the floor, as if giving up",
     options: [
       {
-        text: "Tell people you have resigned as manager of Ross County Football Club, and go update your LinkedIn profile.",
+        text: "Tell people you have resigned as manager of Ross County Football Club, and go update your LinkedIn profile",
         nextText: 1
             },
             {
-        text: "Tell people you have been fired as manager of Ross County Football Club, and go update your LinkedIn profile.",
+              text: "Ask Michael Beale and Lee Johnson if you can join their WhatsApp group",
         nextText: 1
                     }
           ],
