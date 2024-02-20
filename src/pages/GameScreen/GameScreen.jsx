@@ -3,13 +3,29 @@ import MainComponent from "../../components/MainComponent/MainComponent";
 import texts from "../../utils/texts";
 import "./gameScreen.css";
 
+import static_gif from '../../images/static.gif';
+import static_wav from "../../audio/static.wav";
+
 function GameScreen() {
   const [option, setOption] = useState(texts[0].id);
   const [numberOfTimesInTheJob, setNumberOfTimesInTheJob] = useState(3);
+  const [showGif, setShowGif] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [option]);
+
+  const playSoundEffect = () => {
+    const audio = new Audio(static_wav);
+    audio.play();
+    setShowGif(true);
+
+    setTimeout(() => {
+      setShowGif(false);
+      audio.pause();
+      audio.currentTime = 0;
+    }, 5000);
+  };
 
   const components = texts.map((text) => {
     return (
@@ -35,6 +51,7 @@ function GameScreen() {
   useEffect(() => {
     if (option === 1) {
       setNumberOfTimesInTheJob(prev => prev + 1);
+      playSoundEffect();
     }
   }, [option]);
 
@@ -49,7 +66,9 @@ Chairman Roy MacGregor said he had "known for a number of years that Derek wante
 "When we decided that was the route we wanted to go, we got on to it fairly quickly over the weekend and, with Morecambe's agreement, we managed to attract Derek back to the club."
 Adams has now managed County ${numberOfTimesInTheJob} times.`;
 
-  return <div className="gameScreen-container">{components[option - 1]}</div>;
+  return <div className="gameScreen-container">
+    <div className="staticScreen">{showGif && <img src={static_gif} alt="static" />}</div>
+    {components[option - 1]}</div>;
 }
 
 export default GameScreen;

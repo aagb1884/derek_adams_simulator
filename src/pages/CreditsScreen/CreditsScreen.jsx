@@ -72,6 +72,18 @@ function CreditsScreen() {
                 rel="noopener noreferrer">
           'Zwei raufende Buben' (Two Boys Fighting) by Giulio del Torren</a>. Public domain.
           </li>
+          <li><a className="creditsScreen-pictureCredit"
+                href="https://commons.wikimedia.org/wiki/File:Giulio_del_Torre_Zwei_raufende_Buben_1927.jpg"
+                target="_blank"
+                rel="noopener noreferrer">
+          'Zwei raufende Buben' (Two Boys Fighting) by Giulio del Torren</a>. Public domain.
+          </li>
+          <li><a className="creditsScreen-pictureCredit"
+                href="https://commons.wikimedia.org/wiki/File:Giulio_del_Torre_Zwei_raufende_Buben_1927.jpg"
+                target="_blank"
+                rel="noopener noreferrer">
+          'Zwei raufende Buben' (Two Boys Fighting) by Giulio del Torren</a>. Public domain.
+          </li>
         </ul>
         </div>
       <br />
