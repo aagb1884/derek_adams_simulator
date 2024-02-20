@@ -208,7 +208,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
       alt: "Monochrome image of a relatively happy Derek Adams",
      options: [
       {
-        text: "Yaaaaaaaaaaaaaaaaaaaaaaaaas SOON THEY WILL ALL SEE MY POWER",
+        text: "Yaaaaaaaaaaaaaaaas SOON THEY WILL ALL SEE MY POWER",
         nextText: 9,
       },
       {
