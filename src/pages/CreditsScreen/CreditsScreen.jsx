@@ -96,7 +96,7 @@ function CreditsScreen() {
                 href="https://freesound.org/people/PantherK/sounds/585783/"
                 target="_blank"
                 rel="noopener noreferrer">
-          Static fade out by PantherK</a>. 
+          Static fade out by PantherK</a> on <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 1.0 Licence</a>. 
           </li>
         </ul>
         </div>
