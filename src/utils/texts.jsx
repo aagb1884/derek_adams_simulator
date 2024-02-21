@@ -68,7 +68,7 @@ Chairman Roy MacGregor said he had "known for a number of years that Derek wante
 This will be your 3rd time managing Ross County.`,
     image: greetings,
     alt: "Distorted image of Derek Adams holding a Ross County scarf above his head.",
-    loopCountUpdate: 0,
+    loopCountUpdate: "loopCount",
     options: [
       {
         text: "Let's get cracking",
