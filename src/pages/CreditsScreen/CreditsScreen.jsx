@@ -23,7 +23,7 @@ function CreditsScreen() {
         <h2 className="creditsScreen-text">Image credits</h2>
         <br />
         
-        <ul className="creditsList">
+        <ul className="imageCreditsList">
           <li><a className="creditsScreen-pictureCredit"
                 href="https://en.m.wikipedia.org/wiki/File:Tynecastle_Park,_January_2018.jpg"
                 target="_blank"
@@ -83,6 +83,20 @@ function CreditsScreen() {
                 target="_blank"
                 rel="noopener noreferrer">
           'Zwei raufende Buben' (Two Boys Fighting) by Giulio del Torren</a>. Public domain.
+          </li>
+          <li><a className="creditsScreen-pictureCredit"
+                href="https://www.deviantart.com/tbh-1138/art/TV-Static-214352630"
+                target="_blank"
+                rel="noopener noreferrer">
+          TV Static by TBH-1138</a>. 
+          </li>
+        </ul>
+        <ul className="audio-creditsList">
+        <li><a className="creditsScreen-audioCredit"
+                href="https://freesound.org/people/PantherK/sounds/585783/"
+                target="_blank"
+                rel="noopener noreferrer">
+          Static fade out by PantherK</a>. 
           </li>
         </ul>
         </div>
