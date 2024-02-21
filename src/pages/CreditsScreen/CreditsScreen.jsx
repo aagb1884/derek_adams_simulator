@@ -20,10 +20,11 @@ function CreditsScreen() {
       </div>
       <br />
       <div className="creditsScreen-content"> 
-        <h2 className="creditsScreen-text">Image credits</h2>
+        
         <br />
         
         <ul className="imageCreditsList">
+        <h2 className="creditsScreen-text">Image credits</h2>
           <li><a className="creditsScreen-pictureCredit"
                 href="https://en.m.wikipedia.org/wiki/File:Tynecastle_Park,_January_2018.jpg"
                 target="_blank"
@@ -73,16 +74,16 @@ function CreditsScreen() {
           'Zwei raufende Buben' (Two Boys Fighting) by Giulio del Torren</a>. Public domain.
           </li>
           <li><a className="creditsScreen-pictureCredit"
-                href="https://en.wikipedia.org/wiki/File:F._21r._Wyvern.jpg"
-                target="_blank"
-                rel="noopener noreferrer">
-          National Library of Wales</a>on <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">Creative Commons 1.0 Licence</a>.
-          </li>
-          <li><a className="creditsScreen-pictureCredit"
                 href="https://commons.wikimedia.org/wiki/File:The_Laws_of_Hywel_Dda_(f.15.v)_hair_pulling_(cropped).png"
                 target="_blank"
                 rel="noopener noreferrer">
-          National Library of Wales</a>on <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">Creative Commons 1.0 Licence</a>.
+          Laws of Hywel Dda (f.15.v). National Library of Wales</a> on <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">Creative Commons 1.0 Deed</a>.
+          </li>
+          <li><a className="creditsScreen-pictureCredit"
+                href="https://en.m.wikipedia.org/wiki/File:F._21r._Wyvern.jpg"
+                target="_blank"
+                rel="noopener noreferrer">
+          Laws of Hywel Dda (f.21.r). National Library of Wales</a> on <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">Creative Commons 1.0 Deed</a>.
           </li>
           <li><a className="creditsScreen-pictureCredit"
                 href="https://www.deviantart.com/tbh-1138/art/TV-Static-214352630"
@@ -92,7 +93,9 @@ function CreditsScreen() {
           </li>
           All image editing done with <a href="https://www.gimp.org/">GIMP</a>.
         </ul>
-        <ul className="audio-creditsList">
+        <br />
+        <ul className="audioCreditsList">
+        <h2 className="creditsScreen-text">Audio credits</h2>
         <li><a className="creditsScreen-audioCredit"
                 href="https://freesound.org/people/PantherK/sounds/585783/"
                 target="_blank"
