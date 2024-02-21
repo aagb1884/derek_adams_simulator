@@ -20,10 +20,11 @@ function CreditsScreen() {
       </div>
       <br />
       <div className="creditsScreen-content"> 
-        <h2 className="creditsScreen-text">Image credits</h2>
+        
         <br />
         
         <ul className="imageCreditsList">
+        <h2 className="creditsScreen-text">Image credits</h2>
           <li><a className="creditsScreen-pictureCredit"
                 href="https://en.m.wikipedia.org/wiki/File:Tynecastle_Park,_January_2018.jpg"
                 target="_blank"
@@ -92,7 +93,9 @@ function CreditsScreen() {
           </li>
           All image editing done with <a href="https://www.gimp.org/">GIMP</a>.
         </ul>
-        <ul className="audio-creditsList">
+        <br />
+        <ul className="audioCreditsList">
+        <h2 className="creditsScreen-text">Audio credits</h2>
         <li><a className="creditsScreen-audioCredit"
                 href="https://freesound.org/people/PantherK/sounds/585783/"
                 target="_blank"
