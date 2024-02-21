@@ -23,7 +23,7 @@ function CreditsScreen() {
         <h2 className="creditsScreen-text">Image credits</h2>
         <br />
         
-        <ul className="creditsList">
+        <ul className="imageCreditsList">
           <li><a className="creditsScreen-pictureCredit"
                 href="https://en.m.wikipedia.org/wiki/File:Tynecastle_Park,_January_2018.jpg"
                 target="_blank"
@@ -84,7 +84,28 @@ function CreditsScreen() {
                 rel="noopener noreferrer">
           National Library of Wales</a>on <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">Creative Commons 1.0 Licence</a>.
           </li>
-          
+          <li><a className="creditsScreen-pictureCredit"
+                href="https://www.deviantart.com/tbh-1138/art/TV-Static-214352630"
+                target="_blank"
+                rel="noopener noreferrer">
+          TV Static by TBH-1138</a>. 
+          </li>
+          All image editing done with <a href="https://www.gimp.org/">GIMP</a>.
+        </ul>
+        <ul className="audio-creditsList">
+        <li><a className="creditsScreen-audioCredit"
+                href="https://freesound.org/people/PantherK/sounds/585783/"
+                target="_blank"
+                rel="noopener noreferrer">
+          Static fade out by PantherK</a> on <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 1.0 Licence</a>. 
+          </li>
+        <li><a className="creditsScreen-audioCredit"
+                href="https://freesound.org/people/MKzing/sounds/474266/"
+                target="_blank"
+                rel="noopener noreferrer">
+          Bells with Crows by MKzing</a> on <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 1.0 Licence</a>. 
+          </li>
+          All audio editing done with <a href="https://www.audacityteam.org/">Audacity</a>.
         </ul>
         </div>
       <br />

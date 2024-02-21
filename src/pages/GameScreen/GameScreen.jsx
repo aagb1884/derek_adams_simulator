@@ -10,24 +10,26 @@ function GameScreen() {
   const [option, setOption] = useState(texts[0].id);
   const [numberOfTimesInTheJob, setNumberOfTimesInTheJob] = useState(3);
   const [showGif, setShowGif] = useState(false);
+  const [loopCount, setLoopCount] = useState(0)
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [option]);
 
   const playSoundEffect = () => {
+   
     const audio = new Audio(static_wav);
     audio.play();
     setShowGif(true);
 
     setTimeout(() => {
       setShowGif(false);
-      audio.pause();
-      audio.currentTime = 0;
     }, 5000);
+    
   };
-
+  
   const components = texts.map((text) => {
+  
     return (
       <content className="gameScreen"> 
         
@@ -49,13 +51,19 @@ function GameScreen() {
   });
 
   useEffect(() => {
-    if (option === 1) {
+    const currentText = texts.find((text) => text.id === option);
+    if (currentText && currentText.loopCountUpdate) {
+      setLoopCount(currentText.loopCountUpdate);
+    }
+
+    if (option === 1 && loopCount > 0) {
       setNumberOfTimesInTheJob(prev => prev + 1);
       playSoundEffect();
     }
   }, [option]);
 
-  
+
+
   texts[0].text = `You awake to find yourself manager of Ross County F.C.
 
  This comes after Malky Mackay was sacked last week for being bad at his job.
@@ -64,7 +72,8 @@ Chairman Roy MacGregor said he had "known for a number of years that Derek wante
 "We had 70 applications to go through, but the name Derek Adams kept coming back," he said.
 "For us, it was that knowledge, determination and passion for Ross County that was the deciding factors.
 "When we decided that was the route we wanted to go, we got on to it fairly quickly over the weekend and, with Morecambe's agreement, we managed to attract Derek back to the club."
-Adams has now managed County ${numberOfTimesInTheJob} times.`;
+
+You have now been Ross County manager ${numberOfTimesInTheJob} times.`;
 
   return <div className="gameScreen-container">
     <div className="staticScreen">{showGif && <img src={static_gif} alt="static" />}</div>
