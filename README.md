@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# The Derek Adams Management Simulator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Currently hosted [here](https://derek-adams-simulator.vercel.app/).
 
-## Available Scripts
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses [React Routers](https://reactrouter.com/en/main).
 
-In the project directory, you can run:
+![Screengrab of home page](https://github.com/aagb1884/derek_adams_simulator/assets/113289014/e6bb9856-4b61-4820-85ac-d0fbe48c2ab3)
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I made this game in React JS after reading an article about making text adventure games in React. More info about it can be found [here](https://medium.com/@dimterion/making-an-interactive-text-adventure-game-with-react-779667cca2cb).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The game is a text based Choose-Your-Own-Adventure-style football management game (specifically the 12-match reign of Derek Adams at Scottish Premiership club Ross County during the 2023-24 season) with references to Football Manager and a surprising amount of medieval Welsh manuscripts.
 
-### `npm test`
+The game is aimed at Scottish football fans and the terminally online.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Fallout
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I hosted the game on [Vercel](https://vercel.com/), which was extremely straightforward as it deploys and builds it from a Github Repo very quickly, meaning you can just push code to the repo and the webpages update. However it exceeded the free tier bandwidth on day one! As a result I have been a bit rushed today in moving it to a paid tier and looking at options going forward. 
