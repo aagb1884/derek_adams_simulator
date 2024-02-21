@@ -90,6 +90,7 @@ function CreditsScreen() {
                 rel="noopener noreferrer">
           TV Static by TBH-1138</a>. 
           </li>
+          All image editing done with <a href="https://www.gimp.org/">GIMP</a>.
         </ul>
         <ul className="audio-creditsList">
         <li><a className="creditsScreen-audioCredit"
@@ -98,6 +99,13 @@ function CreditsScreen() {
                 rel="noopener noreferrer">
           Static fade out by PantherK</a> on <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 1.0 Licence</a>. 
           </li>
+        <li><a className="creditsScreen-audioCredit"
+                href="https://freesound.org/people/MKzing/sounds/474266/"
+                target="_blank"
+                rel="noopener noreferrer">
+          Bells with Crows by MKzing</a> on <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 1.0 Licence</a>. 
+          </li>
+          All audio editing done with <a href="https://www.audacityteam.org/">Audacity</a>.
         </ul>
         </div>
       <br />

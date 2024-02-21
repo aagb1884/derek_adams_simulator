@@ -68,7 +68,7 @@ Chairman Roy MacGregor said he had "known for a number of years that Derek wante
 This will be your 3rd time managing Ross County.`,
     image: greetings,
     alt: "Distorted image of Derek Adams holding a Ross County scarf above his head.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
     options: [
       {
         text: "Let's get cracking",
@@ -89,7 +89,7 @@ This will be your 3rd time managing Ross County.`,
 The game is at Victoria Park, Dingwall.`,
     image: victoriaPark,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
     options: [
       {
         text: "Muck about with the team, put your own stamp on it",
@@ -107,7 +107,7 @@ The game is at Victoria Park, Dingwall.`,
     text: `You have drawn with Kilmarnock.`,
     image: deek1,
     alt: "Derek Adams biting his lip.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
     options: [
       {
         text: "Oh well",
@@ -130,7 +130,7 @@ The game will be played at Victoria Park, Dingwall.
 You remain optimistic about your chances following the Kilmarnock match.`,
     image: victoriaPark,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
     options: [
       {
         text: "Same team as last time",
@@ -153,7 +153,7 @@ The game will be played at Victoria Park, Dingwall.
 You have bollocked the players for not winning the Kilmarnock match.`,
     image: victoriaPark,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
     options: [
       {
         text: "Wholesale changes to the line-up",
@@ -171,7 +171,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
     text: "You beat The Buddies 1-0! Clever Derek, keeping the team the same!",
     image: deek2,
     alt: "Monochrome image of a relatively happy Derek Adams",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
     options: [
       {
         text: "Yaaaaas",
@@ -189,7 +189,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
     text: "You beat The Buddies 2-0! Clever Derek!",
     image: deek2,
     alt: "Monochrome image of a relatively happy Derek Adams",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
     options: [
       {
         text: "Yaaaaaaaaas",
@@ -207,7 +207,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
     text: "You beat The Buddies 5-0! Clever Derek! Here's to the raw power of your bollocks.",
     image: deek2,
     alt: "Monochrome image of a relatively happy Derek Adams",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
     options: [
       {
         text: "Yaaaaaaaaaaaaaaaas SOON THEY WILL ALL SEE MY POWER",
@@ -225,7 +225,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
     text: "Everyone loves you. You've brought the feelgood factor back to Dingwall.",
     image: deek3,
     alt: "A very cheerful Derek Adams.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
      options: [
       {
         text: "Wee Deek always brings the party!",
@@ -243,7 +243,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
     text: "Folk are pretty happy so aren't bothered by your lukewarm response.",
     image: joyfulPeeps,
     alt: "People jumping for joy against the backdrop of a colourful sunset",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
      options: [
       {
         text: "Right, let's go again then",
@@ -261,7 +261,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
     text: "A press guy with an old timey New York accent asks you how you're feeling about the Motherwell game tomorrow.",
     image: oldTimeyJourno,
     alt: "An Old Timey journalist, probably with a Brooklyn accent, relaying his notes down the phone.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
      options: [
       {
         text: "Bring it on, we're on a roll",
@@ -279,7 +279,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
     text: "Everyone is very happy, the journos in the big city think you're just swell",
     image: scotsport,
     alt: "The Scotsport panel discuss the latest news in Scottish football.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
      options: [
       {
         text: "Let's crush those Steelmen like Thatcher did",
@@ -297,7 +297,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
     text: "The journalist finds your candour refreshing.",
     image: sportscene,
     alt: "Three vague shapes discuss the latest SPFL action.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
       options: [
       {
         text: "You do not care. If anything you find the praise of these formless blobs patronising",
@@ -315,7 +315,7 @@ You have bollocked the players for not winning the Kilmarnock match.`,
     text: "Ross County beat Motherwell 3-0!",
     image: deek4,
     alt: "A very chipper Derek Adams.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Yes lads, we thrashed them like an old fashioned school teacher with unprocessed trauma from one of the two major wars of the 20th century would thrash a mildly cheeky schoolboy",
@@ -337,7 +337,7 @@ The game will be played at The Buddies Park, Paisley.`,
 
     image: smisa,
     alt: "The Buddies Park (aka The SMISA Stadium), Paisley.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "We beat these bigtown scum at our place and we can do it again here!",
@@ -359,7 +359,7 @@ The game is at The Buddies Park, Paisley.`,
 
     image: smisa,
     alt: "The Buddies Park (aka The SMISA Stadium), Paisley.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Treat this like a new game. A new game of football. Not like a brand new game, like you sometimes get on The Crystal Maze",
@@ -382,7 +382,7 @@ Manager Derek Adams is asked for his opinion on the match.`,
 
 image: deek6,
 alt: "Derek Adams giving an interview",
-loopCountUpdate: "setLoopCount(0)",
+loopCountUpdate: 0,
            options: [
       {
         text: "Nayhaps I was unwise to fire the lads up so much. It was like Pompeii out there, underwhelming and featuring Kit Harington",
@@ -405,7 +405,7 @@ Manager Derek Adams is asked for his opinion on the match.`,
 
     image: deek6,
     alt: "Derek Adams giving an interview",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Have you seen the new Crystal Maze? I don't know, I just find Richard Ayaode a bit much",
@@ -427,7 +427,7 @@ Manager Derek Adams is asked for his opinion on the match.`,
 
       image: deek6,
       alt: "Derek Adams giving an interview",
-      loopCountUpdate: "setLoopCount(0)",
+      loopCountUpdate: 0,
           options: [
       {
         text: "Treat this like a new game. A new game of football. Not like a brand new game, like you sometimes get on The Crystal Maze",
@@ -450,7 +450,7 @@ The game will be played at Victoria Park, Dingwall.`,
 
     image: victoriaPark,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Look you were unlucky in the last game. We just need to put the ball in the net",
@@ -471,7 +471,7 @@ The game will be played at Victoria Park, Dingwall.`,
 
     image: deek7,
     alt: "Derek Adams closes his eyes and makes a decision.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Remind the players that you've been creating chances and if they keep playing like this they'll be okay, they were just unlucky tonight",
@@ -490,7 +490,7 @@ The game will be played at Victoria Park, Dingwall.`,
     text: "On second thoughts…",
     image: deek7,
     alt: "Derek Adams closes his eyes and makes a decision.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
             {
                 text: "Announce that Scottish football is so bad you'd rather where a suit where a pipe connected your mouth and anus at all times. Sky would be better off buying the rights to an international de-gloving tournament. Watching Scottish football makes you feel like joining a death cult.  You'd rather watch reruns of 9/11. To cheer yourself up you're going home to sit in the dark and think about the last time you saw your dad",
@@ -511,7 +511,7 @@ The game will be played at Victoria Park, Dingwall.`,
 
     image: deek5,
     alt: "Derek looks into the middle distance.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Ach fine, it'll all blow over",
@@ -532,7 +532,7 @@ The game will be played at Victoria Park, Dingwall.`,
 
     image: oofSizeLarge,
     alt: "A dial marked 'OOF SIZE' set to 'Large'.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Prepare a mid-block press with a quick release to your most creative player. Let's get them on the break. This is going to surprise people",
@@ -553,7 +553,7 @@ The game will be played at Victoria Park, Dingwall.`,
 
     image: wyvern,
     alt: "A wyvern, as seen in a 14th century Welsh manuscript.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Ah well, let's look forward to the next game",
@@ -574,7 +574,7 @@ The game will be played at Victoria Park, Dingwall.`,
 
     image: helloDarkness,
     alt: "Ben Affleck looking sad.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Right, well, we'll just call that a free hit I guess",
@@ -595,7 +595,7 @@ The game will be played at Tynecastle, Edinburgh.`,
 
     image: tynecastle,
     alt: "Tynecastle, Edinburgh.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Oh nice, we can visit Gorgie City Farm",
@@ -616,7 +616,7 @@ The game will be played at Tynecastle, Edinburgh.`,
 
     image: christmasPresents,
     alt: "Derek with his Christmas Presents.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Continue rescuing the Princess from the evil",
@@ -638,7 +638,7 @@ The game will be played at Tynecastle, Edinburgh.`,
 
     image: turkey,
     alt: "Delicious turkey",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Continue eating turkey, your favourite meat",
@@ -657,7 +657,7 @@ The game will be played at Tynecastle, Edinburgh.`,
     text: "Gorgie City Farm has closed.",
     image: gorgieCityFarm,
     alt: "Gorgie City Farm with a 'Regrettably we are closed' sign on the gate.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Tell yourself there will be another chance to feed a llama some pellets",
@@ -677,7 +677,7 @@ The game will be played at Tynecastle, Edinburgh.`,
 
     image: buckled,
     alt: "Collapsing on the floor, as if giving up",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
                   options: [
       {
         text: "Warn the players that you'll be seeking reinforcements in the transfer window",
@@ -695,7 +695,7 @@ The game will be played at Tynecastle, Edinburgh.`,
     text: "Do you want to buy a player?",
     image: scouting,
     alt: "Coaches and scouts assessing a player.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Yes",
@@ -737,7 +737,7 @@ You remain optimistic about your chances following the Hearts match.`,
 
     image: victoriaPark,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Tell the players that if they carry on their performance from the last match, you'll do well here",
@@ -755,7 +755,7 @@ You remain optimistic about your chances following the Hearts match.`,
     text: "Aberdeen gub you 3-0.",
     image: happyNewYear,
     alt: "Happy New Year from everyone at Aberdeen Football Club",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Right. We're going to have to get some new players",
@@ -773,7 +773,7 @@ You remain optimistic about your chances following the Hearts match.`,
     text:  "Do you definitely want to buy a player?",
     image: buyHim,
     alt: "Derek Adams pointing at the player he wants.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
 text: "Yes",
@@ -791,7 +791,7 @@ text: "Actually no",
     text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)}, a ${getRandomItem(positions)}. How do you welcome him to the club?`,
     image: scarfAloft,
     alt: "A blurred image of a new signing, Ross County scarf aloft",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
 {
 text: "Mandatory Roshambo Nut-Kicking Tournament",
@@ -811,7 +811,7 @@ text: "Sensory deprivation tank for first 24 hours",
     text: "You are now on a mid-season break, returning to action against Partick Thistle in the Scottish Cup on the 20th.",
     image: kingsley,
     alt: "Kingsley, the Partick Thistle mascot.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Right. We're going to have to get some new players",
@@ -831,7 +831,7 @@ date: "06/01/24",
 
 image: scouting,
 alt: "Coaches and scouts assessing a player.",
-loopCountUpdate: "setLoopCount(0)",
+loopCountUpdate: 0,
            options: [
 {
 text: "Yes",
@@ -852,7 +852,7 @@ text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)},
 
 image: playerSigned,
 alt: "A player signing a contract",
-loopCountUpdate: "setLoopCount(0)",
+loopCountUpdate: 0,
            options: [
 {
 text: "Get him right out on the pitch immediately",
@@ -877,7 +877,7 @@ You are optimistic following last season's play-off triumph.`,
 
     image: victoriaPark,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Come on lads, a cup run will give us a cause for optimism",
@@ -897,7 +897,7 @@ You are optimistic following last season's play-off triumph.`,
 
     image: deek1,
     alt: "Derek Adams biting his lip.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Right. We're going to have to get some new players",
@@ -915,7 +915,7 @@ You are optimistic following last season's play-off triumph.`,
     text: "You have lost 12-0 at home to Partick Thistle.",
     image: deek7,
     alt: "Derek Adams closes his eyes.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Right. We're going to have to get some new players",
@@ -934,7 +934,7 @@ You are optimistic following last season's play-off triumph.`,
     text: "Do you want to buy a player? For realsies?",
     image: buyHim,
     alt: "Derek Adams pointing at the player he wants.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
 {
 text: "Yes",
@@ -954,7 +954,7 @@ text: "Actually no",
     text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)}, a ${getRandomItem(positions)}. So that's nice.`,
     image: scarfAloft,
     alt: "A blurred image of a new signing, Ross County scarf aloft",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
     options: [
 {
 text: "Yep",
@@ -974,7 +974,7 @@ text: "You feel a brief twinge of hope",
     text: "After losing at home to Partick Thistle the media are asking you if you're happy at Ross County.",
     image: hugeMistake,
     alt: "GOB Bluth from Arrested Development acknowledging that he's made a huge mistake.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "I'm so happy. We're terribly in love",
@@ -992,7 +992,7 @@ text: "You feel a brief twinge of hope",
     text: "Derek, do you think you have what it takes to bounce back in the next game?",
     image: deek2,
     alt: "Monochrome image of a relatively happy Derek Adams",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Oh aye, no bother",
@@ -1014,7 +1014,7 @@ The game will take place at Celtic Park, Glasgow.`,
 
     image: celticPark,
     alt: "Celtic Park, Glasgow",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Right. We're going to have to get some new players",
@@ -1034,7 +1034,7 @@ date: "26/01/24",
 
 image: capSoMeme,
 alt: "Captain America 'So...' meme image",
-loopCountUpdate: "setLoopCount(0)",
+loopCountUpdate: 0,
            options: [
 {
 text: "Yes",
@@ -1054,7 +1054,7 @@ date: "26/01/24",
 text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)}, a ${getRandomItem(positions)}. Chuck 'em in at the deep end?`,
 image: playerSigned,
 alt: "A player signing a contract",
-loopCountUpdate: "setLoopCount(0)",
+loopCountUpdate: 0,
            options: [
 {
 text: "Yeah",
@@ -1073,7 +1073,7 @@ text: "Do you know what I miss? 'Space Precinct'. Now that was television",
     text: "You are about to play Celtic. What do you say to motivate your players?",
     image: ruPaul,
     alt: "RuPaul saying 'And don't fuck it up'.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Let's just get this over with",
@@ -1093,7 +1093,7 @@ text: "Do you know what I miss? 'Space Precinct'. Now that was television",
     text: "You have lost 1-0 to Celtic.",
     image: meh,
     alt: "RuPaul saying 'Meh'.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
             {
         text: "Could have been worse",
@@ -1119,7 +1119,7 @@ Livingston have been dogshit all season.`,
 
     image: tonyMacaroni,
     alt: "The Tony Macaroni Arena (aka Almondvale Stadium), Livingston.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
           {
         text: "Come on lads, if you put the same effort you put into the Celtic match you'll win here",
@@ -1139,7 +1139,7 @@ date: "29/01/24",
 
     image: buyHim,
     alt: "Derek Adams pointing at the player he wants.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
 {
 text: "Yes",
@@ -1159,7 +1159,7 @@ text: "Actually no",
     text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)}, a ${getRandomItem(positions)}. This one'll be the difference-maker.`,
     image: scarfAloft,
     alt: "A blurred image of a new signing, Ross County scarf aloft",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
 {
 text: "100%",
@@ -1180,7 +1180,7 @@ text: "47%",
 
 image: ruPaul,
 alt: "RuPaul saying 'And don't fuck it up'.",
-loopCountUpdate: "setLoopCount(0)",
+loopCountUpdate: 0,
            options: [
       {
         text: "I've got a good feeling about this",
@@ -1198,7 +1198,7 @@ loopCountUpdate: "setLoopCount(0)",
     text: "Livingston equalise before half time.",
     image: hugeMistake,
     alt: "GOB Bluth from Arrested Development acknowledging that he's made a huge mistake.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
         {
         text: "Go out and win the second half",
@@ -1216,7 +1216,7 @@ loopCountUpdate: "setLoopCount(0)",
     text: "You are 2-1 up against Livingston with five minutes to go.",
     image: ruPaul,
     alt: "RuPaul saying 'And don't fuck it up'.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
     options: [
       {
         text: "I've got a good feeling about this",
@@ -1234,7 +1234,7 @@ loopCountUpdate: "setLoopCount(0)",
     text: "You have drawn 2-2 with Livingston.",
     image: buckled,
     alt: "Collapsing on the floor, as if giving up",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Okay, we have a problem seeing out games. Time to go into the transfer market",
@@ -1252,7 +1252,7 @@ loopCountUpdate: "setLoopCount(0)",
     text: "Do you want to buy a player?",
     image: redknapp,
     alt: "Harry Redknapp in his car on transfer deadline day.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
 {
 text: "Yes",
@@ -1272,7 +1272,7 @@ text: "Actually no",
     text: `You have loaned ${getRandomItem(firstNames)} ${getRandomItem(lastNames)}, a ${getRandomItem(positions)}. He'll be great. You can feel it in your bones.`,
     image: playerSigned,
     alt: "A player signing a contract",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
 {
 text: "Here we, here we, here we fucking go",
@@ -1291,7 +1291,7 @@ text: "I should probably stop fingering my bones",
     text: "You are fighting Gordon Ramsay.",
     image: fisticuffs,
     alt: "Painting by Giulio del Torre: 'Zwei raufende Buben' (Two Scuffling Boys) 1927.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Knee him in the bollocks",
@@ -1309,7 +1309,7 @@ text: "I should probably stop fingering my bones",
     text: "You knee Gordon Ramsay in the bollocks. He goes down like Martin Boyle.",
     image: kneeInBalls,
     alt: "A knee to the balls.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "You roar 'That's what we're gonna do to St Johnstone'",
@@ -1329,7 +1329,7 @@ text: "I should probably stop fingering my bones",
 
     image: hairPulling,
     alt: "An illustration from a mid-13th century Welsh manuscript.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
       {
         text: "Consider Heston Blumenthal for the next team talk",
@@ -1351,7 +1351,7 @@ text: "I should probably stop fingering my bones",
 The game is at Victoria Park, Dingwall.`,
     image: victoriaPark,
     alt: "Victoria Park (aka The Global Energy Stadium), Dingwall.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
 {
         text: "Come on lads, their defence is about 103 years old. Let's do this",
@@ -1373,7 +1373,7 @@ It is their first away win of the season.`,
 
     image: helloDarkness,
     alt: "Ben Affleck looking sad.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
 {
         text: "Punch a wall",
@@ -1391,7 +1391,7 @@ It is their first away win of the season.`,
     text: "The transfer window is closed, you idiot.",
     image: windowClosed,
     alt: "The Transfer Window has closed.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
             options: [
 {
 text: "You kick the wall",
@@ -1412,7 +1412,7 @@ text: "You kick the wall",
 
     image: wallPunch,
     alt: "A man punching a hole in a wall.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
 {
         text: "Meekly apologise",
@@ -1431,7 +1431,7 @@ text: "You kick the wall",
     text: "The janny tells you that you'd better not fuck it up against Motherwell.",
     image: ruPaul,
     alt: "RuPaul saying 'And don't fuck it up'.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
 {
         text: "You confidently state that you absolutely will not fuck it up against Motherwell",
@@ -1451,7 +1451,7 @@ text: "You kick the wall",
 
     image: jousting,
     alt: "16th Century German jousting",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
 {
     text: "Buy a 4-pack of Aldi-brand Deep Heat and suck it up",
@@ -1469,7 +1469,7 @@ text: "You kick the wall",
     text: "You have lost 5-0 against Motherwell.",
     image: deek7,
     alt: "Derek Adams closes his eyes and makes a decision.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
            options: [
 {
         text: "As each player enters the dressing room, you ring a bell at them and intone SHAME",
@@ -1488,7 +1488,7 @@ text: "You kick the wall",
     text: "You have lost 15-0 to Motherwell.",
     image: bestBoss,
     alt: "Blurred image of Steve Carrell in 'The Office' holding mug reading 'World's best boss'.",
-    loopCountUpdate: "setLoopCount(0)",
+    loopCountUpdate: 0,
 
            options: [
 {
@@ -1510,7 +1510,7 @@ text: "You kick the wall",
 
     image: bellEnd,
     alt: "Street sign in Rowley Regis: 'Bell End'.",
-    loopCountUpdate: "setLoopCount(loopCount + 1)",
+    loopCountUpdate: 1,
            options: [
 {
         text: "Tell people you have resigned as manager of Ross County Football Club, and go update your LinkedIn profile.",
@@ -1531,7 +1531,7 @@ text: "You kick the wall",
 
     image: kneeInBalls,
     alt: "A knee to the balls.",
-    loopCountUpdate: "setLoopCount(loopCount + 1)",
+    loopCountUpdate: 1,
     options: [
   {
           text: "Tell people you have resigned as manager of Ross County Football Club, and go update your LinkedIn profile",
@@ -1550,7 +1550,7 @@ text: "You kick the wall",
     text: "Everyone hates you. You go to the Chairman and offer him your resignation.",
     image: buckled,
     alt: "Collapsing on the floor, as if giving up",
-    loopCountUpdate: "setLoopCount(loopCount + 1)",
+    loopCountUpdate: 1,
     options: [
       {
         text: "Tell people you have resigned as manager of Ross County Football Club, and go update your LinkedIn profile",
