@@ -27,7 +27,8 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        If you can, please support my hosting costs for this app.
+       <img type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>
+         kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'W7W1URM7B');kofiwidget2.draw();</img> 
       </a>
     </div>
   );
