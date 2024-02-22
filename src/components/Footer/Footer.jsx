@@ -20,6 +20,7 @@ function Footer() {
       >
         Made by Andrew Blair
       </a>
+      <br />
       <a
         className="aboutScreen-personalLink"
         href="https://ko-fi.com/freelance_liar"
