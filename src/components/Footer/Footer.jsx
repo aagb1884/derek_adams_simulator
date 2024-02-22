@@ -27,8 +27,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-       <img type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>
-         kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'W7W1URM7B');kofiwidget2.draw();</img> 
+      <img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Support My Work at ko-fi.com' />
       </a>
     </div>
   );
