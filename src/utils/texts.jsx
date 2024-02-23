@@ -430,7 +430,7 @@ Manager Derek Adams is asked for his opinion on the match.`,
       loopCountUpdate: 0,
           options: [
       {
-        text: "Treat this like a new game. A new game of football. Not like a brand new game, like you sometimes get on The Crystal Maze",
+        text: "Have you seen the new Crystal Maze? I don't know, I just find Richard Ayaode a bit much",
         nextText: 20,
       },
       {
