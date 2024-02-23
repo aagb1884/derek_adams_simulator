@@ -2,15 +2,16 @@ import { useState, useEffect } from "react";
 import MainComponent from "../../components/MainComponent/MainComponent";
 import texts from "../../utils/texts";
 import "./gameScreen.css";
-
 import static_gif from '../../images/static.gif';
 import static_wav from "../../audio/static.wav";
+import flicker_gif from "../../images/flicker.gif"
 
 function GameScreen() {
   const [option, setOption] = useState(texts[0].id);
   const [numberOfTimesInTheJob, setNumberOfTimesInTheJob] = useState(3);
   const [showGif, setShowGif] = useState(false);
   const [loopCount, setLoopCount] = useState(0)
+  const [showFlicker, setShowFlicker] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -27,12 +28,27 @@ function GameScreen() {
     }, 5000);
     
   };
+
+  const toggleGif = () => {
+    setShowFlicker(!showFlicker);
+  };
   
   const components = texts.map((text) => {
   
     return (
       <content className="gameScreen"> 
-        
+          <div className="flickering-button">
+        <button onClick={toggleGif}>
+          {showFlicker ? 'Stop Flicker' : 'Add Flicker'}
+        </button>
+        {showFlicker && (
+          <img
+            className="flickering-screen"
+            src={flicker_gif}
+            alt="Flickering"
+          />
+        )}
+      </div>
         <MainComponent
           key={text.id}
           date={text.date}
@@ -44,8 +60,8 @@ function GameScreen() {
           idRight={text.options[1].nextText}
           image={text.image}
           alt={text.alt}
-          
         />
+       
       </content>
     );
   });

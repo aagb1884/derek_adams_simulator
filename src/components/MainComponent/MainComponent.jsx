@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./mainComponent.css";
 
+
 function MainComponent({
   text,
   date,
@@ -13,18 +14,25 @@ function MainComponent({
   idRight,
   image,
   alt,
-  
-}) {
+  }) {
+
   const [menuToggle, setMenuToggle] = useState(false);
+
 
   const handleMenuToggle = () => {
     setMenuToggle(!menuToggle);
   };
 
+
+
   return (
     <div className="mainComponent-container">
       <h1>You are Derek Adams</h1>
-      {menuToggle && <Header />}
+      <div className="menu-and-buttons">
+        {menuToggle && <Header />}
+       
+      </div>
+      
       <div className="mainComponent-imageAndText">
         <label className="mainComponent-menuBtn">
           <input
