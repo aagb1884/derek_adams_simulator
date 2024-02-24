@@ -28,11 +28,9 @@ function MainComponent({
   return (
     <div className="mainComponent-container">
       <h1>You are Derek Adams</h1>
-      <div className="menu-and-buttons">
-        {menuToggle && <Header />}
-       
-      </div>
       
+        {menuToggle && <Header />}
+             
       <div className="mainComponent-imageAndText">
         <label className="mainComponent-menuBtn">
           <input

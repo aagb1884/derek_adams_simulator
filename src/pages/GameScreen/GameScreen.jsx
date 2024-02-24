@@ -4,7 +4,8 @@ import texts from "../../utils/texts";
 import "./gameScreen.css";
 import static_gif from '../../images/static.gif';
 import static_wav from "../../audio/static.wav";
-import flicker_gif from "../../images/flicker.gif"
+import flicker_gif from "../../images/flicker.gif";
+import ambient_wav from '../../audio/ambient_wav.wav';
 
 function GameScreen() {
   const [option, setOption] = useState(texts[0].id);
@@ -12,6 +13,7 @@ function GameScreen() {
   const [showGif, setShowGif] = useState(false);
   const [loopCount, setLoopCount] = useState(0)
   const [showFlicker, setShowFlicker] = useState(false);
+  const [playMusic, setPlayMusic] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -26,21 +28,44 @@ function GameScreen() {
     setTimeout(() => {
       setShowGif(false);
     }, 5000);
-    
   };
+
+  useEffect(() => {
+    const audio = new Audio(ambient_wav);
+    if (playMusic) {
+      audio.loop = true;
+      audio.play(); 
+    } else {
+      audio.pause();
+      audio.currentTime = 0; 
+    }
+
+    return () => {
+      
+      audio.pause();
+      audio.currentTime = 0;
+    };
+  }, [playMusic]); 
+
 
   const toggleGif = () => {
     setShowFlicker(!showFlicker);
   };
-  
+
+  const toggleMusic = () => {
+    setPlayMusic(!playMusic); 
+  };
+
   const components = texts.map((text) => {
   
     return (
       <content className="gameScreen"> 
-          <div className="flickering-button">
-        <button onClick={toggleGif}>
-          {showFlicker ? 'Stop Flicker' : 'Add Flicker'}
-        </button>
+          <div className="flickering-toggle">
+          <label className="toggle">
+            <input type="checkbox" checked={showFlicker} onChange={toggleGif}  />
+            <span class="slider round"></span>
+          </label>
+        {showFlicker ? 'Stop Flicker' : 'Add Flicker'}
         {showFlicker && (
           <img
             className="flickering-screen"
@@ -48,6 +73,13 @@ function GameScreen() {
             alt="Flickering"
           />
         )}
+      </div>
+          <div className="audio-toggle">
+          <label className="toggle">
+            <input type="checkbox" checked={playMusic} onChange={toggleMusic}  />
+            <span class="slider round"></span>
+          </label>
+        {playMusic ? 'Stop Music' : 'Play Music'}
       </div>
         <MainComponent
           key={text.id}
