@@ -7,6 +7,7 @@
   padding: 10px;
   font-size: 1rem;
   text-align: center;
+  z-index: 1;
 }
 
 .header-link {
@@ -14,6 +15,7 @@
   text-decoration: none;
   transition: 0.5s;
   margin: 0 2px;
+  z-index: 1;
 }
 
 .header-link:hover {
