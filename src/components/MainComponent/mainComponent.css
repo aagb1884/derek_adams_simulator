@@ -20,7 +20,7 @@
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
-  border: 5px solid var(--tertiaryColor);
+  
   margin: 5%;
   
   position: relative;
@@ -29,22 +29,23 @@
 }
 
 .mainComponent-menuBtn {
-  --menuBtn-gap: 8px; /* Adjust as needed */
-  --menuBtn-margin: 16px; /* Adjust as needed */
-  --bar-width: 30px; /* Adjust the width of the burger icon */
-  --bar-height: 4px; /* Adjust the height of the burger icon */
-  --secondaryColor: black;
+  --menuBtn-gap: 8px; 
+  --menuBtn-margin: 16px; 
+  --bar-width: 30px; 
+  --bar-height: 4px; 
+  color: rgb(102,57,76);
   display: flex;
   flex-direction: column;
   gap: var(--menuBtn-gap);
   width: max-content;
-  position: fixed; /* Change from absolute to fixed */
+  position: fixed;
   top: var(--menuBtn-margin);
   right: var(--menuBtn-margin);
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.7;
   transition: 0.5s;
-  border: 2px solid black;
+  border: 2px solid rgb(38,39,83);
+  margin-top: 3%;
 }
 
 
@@ -116,15 +117,12 @@
   flex-flow: column nowrap;
   align-items: center;
   margin: auto;
-  border-right: 5px solid var(--tertiaryColor);
-  border-left: 5px solid var(--tertiaryColor);
-  border-bottom: 5px solid var(--tertiaryColor);
 }
 
 .mainComponent-additionalImage {
-  border-right: 1px solid var(--tertiaryColor);
-  border-left: 1px solid var(--tertiaryColor);
-  border-bottom: 1px solid var(--tertiaryColor);
+  border-right: 1px solid var(--secondaryColor);
+  border-left: 1px solid var(--secondaryColor);
+  border-bottom: 1px solid var(--secondaryColor);
   height: 250px;
   width: 250px;
 }
@@ -135,12 +133,12 @@
 }
 
 .mainComponent-link {
-  color: var(--tertiaryColor);
+  color: var(--secondaryColor);
   background-color: var(--secondaryBackground);
   font-size: 1.5rem;
   padding: 1vh 2vw;
   text-decoration: none;
-  border: 1px solid var(--tertiaryColor);
+  border: 1px solid var(--secondaryColor);
   transition: 0.5s;
 }
 
@@ -151,13 +149,13 @@
 }
 
 .mainComponent-creditsLink {
-  color: var(--tertiaryColor);
+  color: var(--secondaryColor);
   background-color: var(--secondaryBackground);
   font-size: 1.5rem;
   margin-top: 2vh;
   padding: 1vh 2vw;
   text-decoration: none;
-  border: 1px solid var(--tertiaryColor);
+  border: 1px solid var(--secondaryColor);
   transition: 0.5s;
 }
 

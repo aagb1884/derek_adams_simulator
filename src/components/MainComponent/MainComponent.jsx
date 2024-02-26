@@ -3,6 +3,8 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./mainComponent.css";
 
+
+
 function MainComponent({
   text,
   date,
@@ -13,35 +15,38 @@ function MainComponent({
   idRight,
   image,
   alt,
-  
-}) {
-  const [menuToggle, setMenuToggle] = useState(false);
+  }) {
+    const [menuToggle, setMenuToggle] = useState(false);
 
-  const handleMenuToggle = () => {
-    setMenuToggle(!menuToggle);
-  };
+    const handleMenuToggle = () => {
+      setMenuToggle(!menuToggle);
+    };
 
   return (
+    <>
+    {menuToggle && <Header />}
     <div className="mainComponent-container">
+      
       <h1>You are Derek Adams</h1>
-      {menuToggle && <Header />}
-      <div className="mainComponent-imageAndText">
-        <label className="mainComponent-menuBtn">
-          <input
-            type="checkbox"
-            checked={menuToggle}
-            onChange={handleMenuToggle}
-          />
-        </label>
+      
+        <div className="mainComponent-imageAndText">
+        <label className="mainComponent-menuBtn" htmlFor="menuToggle">
+      <input
+        type="checkbox"
+        id="menuToggle"
+        checked={menuToggle}
+        onChange={handleMenuToggle}
+      />
+    </label>
         <img className="mainComponent-image" src={image} alt={alt} />
         <p className="mainComponent-text">
           <b>{date}</b>
           <br />
           <br />
           {text}</p>
-      </div>
-      <div className="mainComponent-options">
-        <div className="mainComponent-buttons">
+        </div>
+        <div className="mainComponent-options">
+          <div className="mainComponent-buttons">
           <button
             onClick={() => setOption(idLeft)}
             className="mainComponent-leftBtn"
@@ -58,6 +63,7 @@ function MainComponent({
       </div>
       <Footer />
     </div>
+   </>
   );
 }
 
