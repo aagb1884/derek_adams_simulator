@@ -108,6 +108,18 @@ function CreditsScreen() {
                 rel="noopener noreferrer">
           Bells with Crows by MKzing</a> on <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 1.0 Licence</a>. 
           </li>
+        <li><a className="creditsScreen-audioCredit"
+                href="https://www.looperman.com/loops/detail/309162/pad-dimlit-115bpm-dmin-free-115bpm-ambient-pad-loop"
+                target="_blank"
+                rel="noopener noreferrer">
+          PAD - DimLit 115BPM Dmin by 121Ayem</a>.
+          </li>
+        <li><a className="creditsScreen-audioCredit"
+                href="https://freesound.org/people/Anthousai/sounds/398815/"
+                target="_blank"
+                rel="noopener noreferrer">
+          Vinyl Crackle 02 by Anthousai</a> on <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 1.0 Licence</a>. 
+          </li>
           All audio editing done with <a href="https://www.audacityteam.org/">Audacity</a>.
         </ul>
         </div>
