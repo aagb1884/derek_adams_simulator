@@ -14,6 +14,7 @@ function GameScreen() {
   const [loopCount, setLoopCount] = useState(0)
   const [showFlicker, setShowFlicker] = useState(false);
   const [playMusic, setPlayMusic] = useState(false);
+  
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -60,27 +61,31 @@ function GameScreen() {
   
     return (
       <content className="gameScreen"> 
+      <div className="togglesBox">
           <div className="flickering-toggle">
           <label className="toggle">
             <input type="checkbox" checked={showFlicker} onChange={toggleGif}  />
             <span class="slider round"></span>
           </label>
-        {showFlicker ? 'Stop Flicker' : 'Add Flicker'}
-        {showFlicker && (
+          {showFlicker ? 'Stop Flicker' : 'Add Flicker'}
+          {showFlicker && (
           <img
             className="flickering-screen"
             src={flicker_gif}
             alt="Flickering"
           />
-        )}
-      </div>
+          )}
+          </div>
           <div className="audio-toggle">
-          <label className="toggle">
-            <input type="checkbox" checked={playMusic} onChange={toggleMusic}  />
-            <span class="slider round"></span>
-          </label>
-        {playMusic ? 'Stop Music' : 'Play Music'}
-      </div>
+              <label className="toggle">
+                <input type="checkbox" checked={playMusic} onChange={toggleMusic}  />
+                <span class="slider round"></span>
+              </label>
+            {playMusic ? 'Stop Music' : 'Play Music'}
+          </div>
+        </div>
+
+       
         <MainComponent
           key={text.id}
           date={text.date}

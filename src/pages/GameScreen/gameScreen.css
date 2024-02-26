@@ -8,9 +8,36 @@
 }
 .gameScreen-container.flicker-active {
    border: solid 2px#fff;
-  box-shadow:
-    inset 60px 0 120px rgb(83, 61, 83),
-    inset -60px 0 120px rgb(77, 142, 142)
+    box-shadow:
+    inset 80px 0 140px rgb(83, 61, 83),
+    inset -80px 0 140px rgb(77, 142, 142)
+}
+
+@keyframes flicker {
+  0% {
+    box-shadow: inset 80px 0 140px rgb(83, 61, 83),
+                inset -80px 0 140px rgb(77, 142, 142);
+  }
+  25% {
+    box-shadow: inset 80px 0 150px rgb(62, 46, 62),
+                inset -80px 0 150px rgb(77, 142, 142);
+  }
+  50% {
+    box-shadow: inset 80px 0 180px rgb(83, 61, 83),
+                inset -80px 0 180px rgb(63, 117, 117);
+  }
+  75% {
+    box-shadow: inset 80px 0 160px rgb(83, 61, 83),
+                inset -80px 0 160px rgb(77, 142, 142);
+  }
+  100% {
+    box-shadow: inset 60px 0 150px rgb(83, 61, 83),
+                inset -60px 0 150px rgb(77, 142, 142);
+  }
+}
+
+.flicker-active {
+  animation: flicker 2s infinite alternate; /* Adjust duration and timing as needed */
 }
 
 .staticScreen {
@@ -51,13 +78,31 @@
     z-index: 1; 
   }
 
+.togglesBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flickering-toggle, .audio-toggle{
+  display: flex;
+  align-items: center;
+}
 
   .toggle {
     position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
+    width: 48px;
+    height: 20px;
     z-index: 1;
+  }
+
+  .toggle label{
+    display: flex;
+    align-items: center;
+  }
+
+  .toggle label span {
+    margin: 0 auto;
   }
   
   /* Hide default HTML checkbox */
@@ -83,8 +128,8 @@
   .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 15px;
+    width: 15px;
     left: 4px;
     bottom: 4px;
     background-color: white;
@@ -93,11 +138,11 @@
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: rgb(38,39,83);;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px rgb(38,39,83);;
   }
   
   input:checked + .slider:before {
@@ -106,7 +151,7 @@
     transform: translateX(26px);
   }
   
-  /* Rounded sliders */
+
   .slider.round {
     border-radius: 34px;
   }
@@ -114,3 +159,6 @@
   .slider.round:before {
     border-radius: 50%;
   }
+
+
+  

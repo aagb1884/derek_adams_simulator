@@ -9,7 +9,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Version 1.0
+        Version 1.1.0
       </a>
       <br />
       <a
