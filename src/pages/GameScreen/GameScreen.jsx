@@ -123,9 +123,12 @@ Chairman Roy MacGregor said he had "known for a number of years that Derek wante
 
 You have now been Ross County manager ${numberOfTimesInTheJob} times.`;
 
-  return <div className="gameScreen-container">
+  return (
+    <div className={showFlicker ? "gameScreen-container flicker-active" : "gameScreen-container"}>
     <div className="staticScreen">{showGif && <img src={static_gif} alt="static" />}</div>
-    {components[option - 1]}</div>;
+    {components[option - 1]}
+    </div>
+  );
 }
 
 export default GameScreen;

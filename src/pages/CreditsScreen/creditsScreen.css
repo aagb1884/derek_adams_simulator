@@ -26,28 +26,20 @@
 }
 
 
-.creditsScreen-startScreenLink {
-  --c: no-repeat linear-gradient(var(--tertiaryColor) 0 0);
-  background: var(--c) calc(-101% + var(--p, 0%)) 100%,
-    var(--c) calc(201% - var(--p, 0%)) 0;
+.creditsScreen-screenLink {
   color: var(--primaryColor);
   background-size: 50.1% var(--p, 0.08em);
   background-color: var(--secondaryBackground);
-  transition: 0.3s var(--t, 0s),
-    background-position 0.3s calc(0.3s - var(--t, 0s));
   font-size: 1.25rem;
   margin: 2vh 0 3vh;
   padding: 1vh;
-  border: 1px solid var(--tertiaryColor);
+  border: 1px solid var(--secondaryColor);
   text-decoration: none;
 }
 
-.creditsScreen-startScreenLink:hover {
-  --p: 101%;
-  --t: 0.3s;
+.creditsScreen-screenLink:hover {
   color: var(--secondaryColor);
-  background-color: var(--tertiaryColor);
-  border: 1px solid var(--primaryColor);
+  border-style: outset;
 }
 
 .creditsScreen-personalLink {
@@ -58,7 +50,7 @@
 }
 
 .creditsScreen-personalLink:hover {
-  color: var(--tertiaryColor);
+  color: var(--secondaryColor);
   scale: 1.1;
   transition: 0.25s;
 }

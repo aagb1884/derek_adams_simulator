@@ -10,7 +10,7 @@ function CreditsScreen() {
       <h1 className="creditsScreen-header">Credits</h1>
       <div className="creditsScreen-block">
         <h2 className="creditsScreen-text">Written and developed by{" "}<a
-        className="aboutScreen-personalLink"
+        className="creditsScreen-personalLink"
         href="https://andrewblair.co.uk/"
         target="_blank"
         rel="noopener noreferrer"
@@ -114,11 +114,11 @@ function CreditsScreen() {
       <br />
       <br />
           
-      <Link className="creditsScreen-startScreenLink" to="/">
-        Start Screen
+      <Link className="creditsScreen-screenLink" to="/">
+      {">"} Start Screen
       </Link>
-      <Link className="creditsScreen-startScreenLink" to="/about">
-          About
+      <Link className="creditsScreen-screenLink" to="/about">
+      {">"} About
       </Link>
       <Footer />
     </section>

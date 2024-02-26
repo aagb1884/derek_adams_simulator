@@ -18,7 +18,6 @@
   max-width: 992px;
   overflow: hidden;
   position: relative;
-  border: 5px solid var(--tertiaryColor);
 }
 
 .startScreen-image {
@@ -82,7 +81,6 @@
 
 .startScreen-title {
   font-size: 2.5rem;
-  text-shadow: 2px 2px var(--secondaryColor);
   margin: 0;
 }
 
@@ -91,8 +89,8 @@
   flex-flow: column nowrap;
   margin: 1.5rem 0 0;
   padding: 1rem;
-  border-top: 1px solid var(--tertiaryColor);
-  border-bottom: 1px solid var(--tertiaryColor);
+  border-top: 1px solid var(--secondaryColor);
+  border-bottom: 1px solid var(--secondaryColor);
 }
 
 .startScreen-btn {
@@ -109,7 +107,7 @@
 
 .startScreen-btn:hover {
   color: var(--secondaryColor);
-  box-shadow: inset 200px 0 0 0 var(--tertiaryColor);
+  box-shadow: inset 200px 0 0 0 var(--secondaryColor);
 }
 
 @media screen and (max-width: 200px), screen and (max-height: 200px) {

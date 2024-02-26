@@ -13,7 +13,7 @@ function Footer() {
       </a>
       <br />
       <a
-        className="aboutScreen-personalLink"
+        className="footer-link"
         href="https://andrewblair.co.uk/"
         target="_blank"
         rel="noopener noreferrer"

@@ -3,8 +3,11 @@
    } */
 
 .gameScreen-container {
-  background-color: #fff;
-  border: solid 2px #fff;
+   border: solid 2px #fff;
+ 
+}
+.gameScreen-container.flicker-active {
+   border: solid 2px#fff;
   box-shadow:
     inset 60px 0 120px rgb(83, 61, 83),
     inset -60px 0 120px rgb(77, 142, 142)

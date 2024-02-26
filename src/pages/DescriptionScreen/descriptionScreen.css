@@ -8,7 +8,7 @@
 }
 
 .descriptionScreen-header {
-  border-top: 5px solid var(--tertiaryColor);
+  border-top: 5px solid var(--secondaryColor);
   margin: 0;
   padding: 2vh;
   text-align: center;
@@ -19,8 +19,8 @@
   font-size: 1.4rem;
   padding: 2vh 2vw;
   margin: 0 1vw;
-  border-top: 5px solid var(--tertiaryColor);
-  border-bottom: 5px solid var(--tertiaryColor);
+  border-top: 5px solid var(--secondaryColor);
+  border-bottom: 5px solid var(--secondaryColor);
 }
 
 .descriptionScreen-image {
@@ -33,7 +33,7 @@
 }
 
 .descriptionScreen-link {
-  color: var(--tertiaryColor);
+  color: var(--secondaryColor);
   text-decoration: none;
 }
 

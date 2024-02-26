@@ -26,19 +26,21 @@ function MainComponent({
 
 
   return (
+    <>
+    <label className="mainComponent-menuBtn">
+    <input
+      type="checkbox"
+      checked={menuToggle}
+      onChange={handleMenuToggle}
+    />
+  </label>
     <div className="mainComponent-container">
       <h1>You are Derek Adams</h1>
       
         {menuToggle && <Header />}
              
       <div className="mainComponent-imageAndText">
-        <label className="mainComponent-menuBtn">
-          <input
-            type="checkbox"
-            checked={menuToggle}
-            onChange={handleMenuToggle}
-          />
-        </label>
+      
         <img className="mainComponent-image" src={image} alt={alt} />
         <p className="mainComponent-text">
           <b>{date}</b>
@@ -64,6 +66,7 @@ function MainComponent({
       </div>
       <Footer />
     </div>
+    </>
   );
 }
 
