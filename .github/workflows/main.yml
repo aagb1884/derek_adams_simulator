@@ -1,0 +1,36 @@
+name: Derek Adams App CI
+ 
+on:
+  push:
+    branches:
+      - main
+ 
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+ 
+      - name: Set Up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+ 
+      - name: Install Dependencies
+        run: npm install
+ 
+      - name: Start React App
+        run: npm start &
+        
+      - name: Wait for App to Start
+        run: |
+          timeout 300s bash -c 'until curl -fsS "http://localhost:3000"; do sleep 5; done'
+        continue-on-error: true
+ 
+      - name: Run Cypress Tests
+        run: npx cypress run --spec "cypress/e2e/testingDerekAdams.cy.js"
+ 
+      - name: Stop React App
+        run: pkill -f "npm start"
