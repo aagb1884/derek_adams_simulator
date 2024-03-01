@@ -18,10 +18,10 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Made by Andrew Blair
-      </a>
-      <br />
-      <a href='https://ko-fi.com/freelance_liar' target='_blank'>Suport My Work at Ko-fi.com</a>
+        Made by Andrew Blair</a>
+        <br />
+        <a href='https://ko-fi.com/W7W1URM7B' target='_blank'><img height='36' 
+        src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
     </div>
   );
 }
