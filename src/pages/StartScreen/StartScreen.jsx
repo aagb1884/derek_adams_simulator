@@ -12,7 +12,7 @@ function StartScreen() {
       </div>
       <h1 className="startScreen-title">You are Derek Adams</h1>
       <h2 className="startScreen-subtitle">A management simulator.</h2>
-      <p>"Five minutes of Jim Duffy's life he'll never get back." -  <a href="https://planetradio.co.uk/clyde/shows/clyde-1-superscoreboard/">Gordon Duncan, Superscoreboard</a></p>
+      <p>"Five minutes of Jim Duffy's life he'll never get back." -  <a href="https://planetradio.co.uk/clyde/shows/clyde-1-superscoreboard/" className="superScoreboard">Gordon Duncan, Superscoreboard</a></p>
       <div className="startScreen-menu">
         <Link className="startScreen-btn" to="/game">
           Start

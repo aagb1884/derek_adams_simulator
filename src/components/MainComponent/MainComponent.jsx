@@ -34,6 +34,7 @@ function MainComponent({
       <input
         type="checkbox"
         id="menuToggle"
+        className="menuToggle"
         checked={menuToggle}
         onChange={handleMenuToggle}
       />
