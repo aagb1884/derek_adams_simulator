@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import Footer from "../../components/Footer/Footer";
+import Modal from "../../components/Modal/modal";
 import "./startScreen.css";
 
 function StartScreen() {
+  const [modalOpen, setModalOpen] = useState(true)
+
   return (
     <div className="startScreen-container">
       <div className="startScreen-cover">
@@ -23,6 +27,10 @@ function StartScreen() {
         <Link className="startScreen-btn" to="/credits">
           Credits
         </Link>
+        {modalOpen && (
+          <Modal
+          setModalOpen={setModalOpen} />
+        )}
       </div>
       <Footer />
     </div>
