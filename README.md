@@ -1,6 +1,6 @@
 # The Derek Adams Management Simulator
 
-Currently hosted [here](https://derek-adams-simulator.vercel.app/).
+Currently hosted [here](https://scottish-football-simulators.co.uk/derekadams).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses [React Routers](https://reactrouter.com/en/main).
 
